@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Napoleonic Empires" version="4.0.9"/>
+  <info name="Napoleonic Empires" version="4.1.0"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
-  <triplea minimumVersion="1.6.1"/>
+  <triplea minimumVersion="1.9"/>
   <map>
     <!-- Territory Definitions -->
     <territory name="Normandy"/>
@@ -19,7 +19,7 @@
     <territory name="SZ81" water="true"/>
     <territory name="SZ101" water="true"/>
     <territory name="Valais"/>
-    <territory name="Norvege"/>
+    <territory name="Norway"/>
     <territory name="Barca"/>
     <territory name="Tunisia"/>
     <territory name="SZ100" water="true"/>
@@ -78,7 +78,7 @@
     <territory name="SZ95" water="true"/>
     <territory name="SZ9" water="true"/>
     <territory name="SZ29" water="true"/>
-    <territory name="Lombardi"/>
+    <territory name="Lombardy"/>
     <!--<territory name="SZ109" water="true"/>-->
     <territory name="Basrah"/>
     <territory name="Picardy"/>
@@ -119,10 +119,10 @@
     <territory name="SZ32" water="true"/>
     <territory name="SZ68" water="true"/>
     <territory name="Odessa"/>
-    <territory name="Warszowa"/>
+    <territory name="Warsaw"/>
     <territory name="SZ5" water="true"/>
     <territory name="Austria"/>
-    <territory name="Alemtejo"/>
+    <territory name="Alentejo"/>
     <territory name="SZ34" water="true"/>
     <territory name="SZ12" water="true"/>
     <territory name="SZ63" water="true"/>
@@ -159,11 +159,11 @@
     <territory name="Vastra Gotaland"/>
     <territory name="Antioch"/>
     <territory name="SZ3" water="true"/>
-    <territory name="Orleanais"/>
+    <territory name="Ile-de-France"/>
     <territory name="SZ10" water="true"/>
     <territory name="SZ37" water="true"/>
     <territory name="SZ92" water="true"/>
-    <territory name="Kirghix"/>
+    <territory name="Kirghiz"/>
     <territory name="SZ17" water="true"/>
     <territory name="Mosul"/>
     <territory name="SZ31" water="true"/>
@@ -191,7 +191,7 @@
     <territory name="Essex"/>
     <territory name="SZ52" water="true"/>
     <territory name="Prussia"/>
-    <territory name="Scandinavians"/>
+    <territory name="Fells"/>
     <territory name="SZ11" water="true"/>
     <territory name="Sjaelland"/>
     <territory name="Crimea"/>
@@ -226,7 +226,7 @@
     <territory name="SZ89" water="true"/>
     <territory name="SZ96" water="true"/>
     <territory name="Gascony"/>
-    <territory name="Hanovre"/>
+    <territory name="Hanover"/>
     <territory name="Umbria"/>
     <territory name="SZ103" water="true"/>
     <territory name="Carpathians"/>
@@ -294,7 +294,7 @@
     <territory name="Anatolia"/>
     <territory name="Thessaly"/>
     <territory name="SZ22" water="true"/>
-    <territory name="Eturia"/>
+    <territory name="Etruria"/>
     <!-- Territory Connections -->
     <!--<connection t1="SZ1" t2="Karelia"/>
 <connection t1="SZ1" t2="Novgorod"/>-->
@@ -343,18 +343,18 @@
     <connection t1="SZ11" t2="Holstein"/>
     <connection t1="SZ11" t2="Skane"/>
     <connection t1="SZ11" t2="Vastra Gotaland"/>
-    <connection t1="SZ11" t2="Norvege"/>
+    <connection t1="SZ11" t2="Norway"/>
     <connection t1="SZ11" t2="Jutland"/>
     <connection t1="SZ12" t2="SZ13"/>
     <connection t1="SZ12" t2="SZ19"/>
     <connection t1="SZ12" t2="SZ26"/>
     <connection t1="SZ12" t2="SZ18"/>
     <connection t1="SZ12" t2="SZ20"/>
-    <connection t1="SZ12" t2="Norvege"/>
+    <connection t1="SZ12" t2="Norway"/>
     <connection t1="SZ12" t2="Jutland"/>
     <connection t1="SZ13" t2="SZ14"/>
     <connection t1="SZ13" t2="SZ18"/>
-    <connection t1="SZ13" t2="Norvege"/>
+    <connection t1="SZ13" t2="Norway"/>
     <connection t1="SZ14" t2="SZ15"/>
     <connection t1="SZ14" t2="SZ16"/>
     <connection t1="SZ14" t2="SZ17"/>
@@ -400,7 +400,7 @@
     <connection t1="SZ27" t2="SZ28"/>
     <connection t1="SZ27" t2="SZ29"/>
     <connection t1="SZ27" t2="SZ35"/>
-    <connection t1="SZ27" t2="Hanovre"/>
+    <connection t1="SZ27" t2="Hanover"/>
     <connection t1="SZ27" t2="Hollande"/>
     <connection t1="SZ28" t2="SZ29"/>
     <connection t1="SZ29" t2="SZ35"/>
@@ -471,7 +471,7 @@
     <connection t1="SZ47" t2="SZ48"/>
     <connection t1="SZ47" t2="SZ49"/>
     <connection t1="SZ47" t2="Oporto"/>
-    <connection t1="SZ47" t2="Alemtejo"/>
+    <connection t1="SZ47" t2="Alentejo"/>
     <connection t1="SZ48" t2="SZ49"/>
     <connection t1="SZ48" t2="SZ50"/>
     <connection t1="SZ48" t2="SZ51"/>
@@ -549,7 +549,7 @@
     <connection t1="SZ68" t2="SZ69"/>
     <connection t1="SZ68" t2="SZ70"/>
     <connection t1="SZ68" t2="Rome"/>
-    <connection t1="SZ69" t2="Eturia"/>
+    <connection t1="SZ69" t2="Etruria"/>
     <connection t1="SZ69" t2="Rome"/>
     <connection t1="SZ70" t2="SZ71"/>
     <connection t1="SZ70" t2="Naples"/>
@@ -672,7 +672,7 @@
     <connection t1="SZ101" t2="Mordvins"/>
     <connection t1="SZ102" t2="SZ103"/>
     <connection t1="SZ102" t2="SZ104"/>
-    <connection t1="SZ102" t2="Kirghix"/>
+    <connection t1="SZ102" t2="Kirghiz"/>
     <connection t1="SZ102" t2="Turkmen"/>
     <connection t1="SZ103" t2="SZ104"/>
     <connection t1="SZ103" t2="SZ105"/>
@@ -724,16 +724,16 @@
     <connection t1="Connaught" t2="Leinster"/>
     <connection t1="Connaught" t2="Munster"/>
     <connection t1="Leinster" t2="Munster"/>
-    <connection t1="Norvege" t2="Scandinavians"/>
-    <connection t1="Norvege" t2="Bohus"/>
-    <connection t1="Bohus" t2="Scandinavians"/>
+    <connection t1="Norway" t2="Fells"/>
+    <connection t1="Norway" t2="Bohus"/>
+    <connection t1="Bohus" t2="Fells"/>
     <connection t1="Bohus" t2="Vastra Gotaland"/>
     <connection t1="Bohus" t2="Lappland"/>
     <connection t1="Vastra Gotaland" t2="Lappland"/>
     <connection t1="Vastra Gotaland" t2="Skane"/>
     <connection t1="Vastra Gotaland" t2="Ostra Gotaland"/>
     <connection t1="Vastra Gotaland" t2="Svealand"/>
-    <connection t1="Lappland" t2="Scandinavians"/>
+    <connection t1="Lappland" t2="Fells"/>
     <connection t1="Lappland" t2="Svealand"/>
     <connection t1="Svealand" t2="Ostra Gotaland"/>
     <connection t1="Ostra Gotaland" t2="Skane"/>
@@ -826,8 +826,8 @@
     <connection t1="Georgia" t2="Caucasus"/>
     <connection t1="Georgia" t2="Astrakahn"/>
     <connection t1="UstUrt" t2="Turkmen"/>
-    <connection t1="Turkmen" t2="Kirghix"/>
-    <connection t1="Kirghix" t2="Tsaritsyn"/>
+    <connection t1="Turkmen" t2="Kirghiz"/>
+    <connection t1="Kirghiz" t2="Tsaritsyn"/>
     <connection t1="Astrakahn" t2="Tsaritsyn"/>
     <connection t1="Astrakahn" t2="Mordvins"/>
     <connection t1="Tsaritsyn" t2="Kazan"/>
@@ -854,7 +854,7 @@
     <connection t1="Esthonia" t2="Latvia"/>
     <connection t1="Latvia" t2="Lithuania"/>
     <connection t1="Minsk" t2="Lithuania"/>
-    <connection t1="Minsk" t2="Warszowa"/>
+    <connection t1="Minsk" t2="Warsaw"/>
     <connection t1="Minsk" t2="Volhynia"/>
     <connection t1="Minsk" t2="Severia"/>
     <connection t1="Minsk" t2="Smolensk"/>
@@ -879,14 +879,14 @@
     <connection t1="Galicia" t2="Krakow"/>
     <connection t1="Galicia" t2="Moravia"/>
     <connection t1="Volhynia" t2="Krakow"/>
-    <connection t1="Volhynia" t2="Warszowa"/>
+    <connection t1="Volhynia" t2="Warsaw"/>
     <connection t1="Lithuania" t2="Prussia"/>
-    <connection t1="Lithuania" t2="Warszowa"/>
-    <connection t1="Prussia" t2="Warszowa"/>
+    <connection t1="Lithuania" t2="Warsaw"/>
+    <connection t1="Prussia" t2="Warsaw"/>
     <connection t1="Prussia" t2="Pomerania"/>
     <connection t1="Prussia" t2="Posen"/>
-    <connection t1="Warszowa" t2="Posen"/>
-    <connection t1="Warszowa" t2="Krakow"/>
+    <connection t1="Warsaw" t2="Posen"/>
+    <connection t1="Warsaw" t2="Krakow"/>
     <connection t1="Krakow" t2="Posen"/>
     <connection t1="Krakow" t2="Silesia"/>
     <connection t1="Krakow" t2="Moravia"/>
@@ -952,15 +952,15 @@
     <connection t1="Saxony" t2="Hesse"/>
     <connection t1="Saxony" t2="Magdeburg"/>
     <connection t1="Magdeburg" t2="Hesse"/>
-    <connection t1="Magdeburg" t2="Hanovre"/>
+    <connection t1="Magdeburg" t2="Hanover"/>
     <connection t1="Magdeburg" t2="Mecklenburg"/>
     <connection t1="Mecklenburg" t2="Holstein"/>
-    <connection t1="Mecklenburg" t2="Hanovre"/>
-    <connection t1="Holstein" t2="Hanovre"/>
+    <connection t1="Mecklenburg" t2="Hanover"/>
+    <connection t1="Holstein" t2="Hanover"/>
     <connection t1="Holstein" t2="Jutland"/>
-    <connection t1="Hanovre" t2="Hollande"/>
-    <connection t1="Hanovre" t2="Cologne"/>
-    <connection t1="Hanovre" t2="Hesse"/>
+    <connection t1="Hanover" t2="Hollande"/>
+    <connection t1="Hanover" t2="Cologne"/>
+    <connection t1="Hanover" t2="Hesse"/>
     <connection t1="Hollande" t2="Cologne"/>
     <connection t1="Hesse" t2="Cologne"/>
     <connection t1="Hesse" t2="Rhine"/>
@@ -971,13 +971,13 @@
     <connection t1="Salzburg" t2="Tyrol"/>
     <connection t1="Salzburg" t2="Alps"/>
     <connection t1="Salzburg" t2="Venetia"/>
-    <connection t1="Venetia" t2="Lombardi"/>
+    <connection t1="Venetia" t2="Lombardy"/>
     <connection t1="Venetia" t2="Bologna"/>
     <connection t1="Venetia" t2="Alps"/>
-    <connection t1="Bologna" t2="Lombardi"/>
-    <connection t1="Bologna" t2="Eturia"/>
+    <connection t1="Bologna" t2="Lombardy"/>
+    <connection t1="Bologna" t2="Etruria"/>
     <connection t1="Bologna" t2="Umbria"/>
-    <connection t1="Umbria" t2="Eturia"/>
+    <connection t1="Umbria" t2="Etruria"/>
     <connection t1="Umbria" t2="Rome"/>
     <connection t1="Umbria" t2="Apulia"/>
     <connection t1="Umbria" t2="Naples"/>
@@ -985,13 +985,13 @@
     <connection t1="Apulia" t2="Naples"/>
     <connection t1="Calabria" t2="Naples"/>
     <connection t1="Naples" t2="Rome"/>
-    <connection t1="Rome" t2="Eturia"/>
-    <connection t1="Eturia" t2="Lombardi"/>
-    <connection t1="Eturia" t2="Liguria"/>
-    <connection t1="Lombardi" t2="Alps"/>
+    <connection t1="Rome" t2="Etruria"/>
+    <connection t1="Etruria" t2="Lombardy"/>
+    <connection t1="Etruria" t2="Liguria"/>
+    <connection t1="Lombardy" t2="Alps"/>
     <connection t1="Liguria" t2="Alps"/>
     <connection t1="Liguria" t2="Provence"/>
-    <connection t1="Liguria" t2="Lombardi"/>
+    <connection t1="Liguria" t2="Lombardy"/>
     <connection t1="Tyrol" t2="Alps"/>
     <connection t1="Tyrol" t2="Liechtenstein"/>
     <connection t1="Tyrol" t2="Rhine"/>
@@ -1009,7 +1009,7 @@
     <connection t1="Champagne" t2="Helvetica"/>
     <connection t1="Champagne" t2="Burgundy"/>
     <connection t1="Champagne" t2="Auvergne"/>
-    <connection t1="Champagne" t2="Orleanais"/>
+    <connection t1="Champagne" t2="Ile-de-France"/>
     <connection t1="Champagne" t2="Picardy"/>
     <connection t1="Helvetica" t2="Valais"/>
     <connection t1="Helvetica" t2="Burgundy"/>
@@ -1026,10 +1026,10 @@
     <connection t1="Languedoc" t2="Burgundy"/>
     <connection t1="Burgundy" t2="Auvergne"/>
     <connection t1="Picardy" t2="Normandy"/>
-    <connection t1="Picardy" t2="Orleanais"/>
-    <connection t1="Orleanais" t2="Normandy"/>
-    <connection t1="Orleanais" t2="Anjou"/>
-    <connection t1="Orleanais" t2="Auvergne"/>
+    <connection t1="Picardy" t2="Ile-de-France"/>
+    <connection t1="Ile-de-France" t2="Normandy"/>
+    <connection t1="Ile-de-France" t2="Anjou"/>
+    <connection t1="Ile-de-France" t2="Auvergne"/>
     <connection t1="Auvergne" t2="Gascony"/>
     <connection t1="Auvergne" t2="Poitou"/>
     <connection t1="Auvergne" t2="Anjou"/>
@@ -1073,8 +1073,8 @@
     <connection t1="Leon" t2="Oporto"/>
     <connection t1="Galacia" t2="Oporto"/>
     <connection t1="Oporto" t2="Algarve"/>
-    <connection t1="Oporto" t2="Alemtejo"/>
-    <connection t1="Alemtejo" t2="Algarve"/>
+    <connection t1="Oporto" t2="Alentejo"/>
+    <connection t1="Alentejo" t2="Algarve"/>
   </map>
   <resourceList>
     <resource name="PUs"/>
@@ -1967,7 +1967,7 @@
     <attachment name="territoryAttachment" attachTo="Valais" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Norvege" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Norway" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Barca" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2076,7 +2076,7 @@
     <attachment name="territoryAttachment" attachTo="Bohemia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Lombardi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Lombardy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Basrah" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2154,7 +2154,7 @@
     <attachment name="territoryAttachment" attachTo="Odessa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Warszowa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Warsaw" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Austria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2162,7 +2162,7 @@
       <option name="capital" value="AustrianEmpire"/>
       <option name="victoryCity" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Alemtejo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Alentejo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
       <option name="victoryCity" value="1"/>
     </attachment>
@@ -2229,12 +2229,12 @@
     <attachment name="territoryAttachment" attachTo="Antioch" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Orleanais" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Ile-de-France" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
       <option name="capital" value="France"/>
       <option name="victoryCity" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Kirghix" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Kirghiz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Mosul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2300,7 +2300,7 @@
       <option name="capital" value="KingdomOfPrussia"/>
       <option name="victoryCity" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Scandinavians" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Fells" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Sjaelland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2370,7 +2370,7 @@
     <attachment name="territoryAttachment" attachTo="Gascony" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Hanovre" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Hanover" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Umbria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2509,7 +2509,7 @@
     <attachment name="territoryAttachment" attachTo="Thessaly" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Eturia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Etruria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="SZ19" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2559,7 +2559,7 @@
       <option name="production" value="0"/>
       <option name="isImpassable" value="true"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Scandinavians" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Fells" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassable" value="true"/>
     </attachment>
@@ -2610,7 +2610,7 @@
     </attachment>
     <attachment name="objectiveAttachment_Balancing_Income_for_balanced_game" attachTo="France" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="-6"/>
-      <option name="alliedOwnershipTerritories" value="Orleanais" count="1"/>
+      <option name="alliedOwnershipTerritories" value="Ile-de-France" count="1"/>
     </attachment>
     <attachment name="objectiveAttachment_Balancing_Income_for_balanced_game" attachTo="UnitedKingdom" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="-4"/>
@@ -5981,7 +5981,7 @@
       <territoryOwner territory="Northumberland" owner="UnitedKingdom"/>
       <territoryOwner territory="Yorkshire" owner="UnitedKingdom"/>
       <territoryOwner territory="Majorca" owner="UnitedKingdom"/>
-      <territoryOwner territory="Hanovre" owner="UnitedKingdom"/>
+      <territoryOwner territory="Hanover" owner="UnitedKingdom"/>
       <territoryOwner territory="Ulster" owner="UnitedKingdom"/>
       <territoryOwner territory="Andalusia" owner="UnitedKingdom"/>
       <territoryOwner territory="Candia" owner="UnitedKingdom"/>
@@ -6000,7 +6000,7 @@
       <!-- France Owned Territories -->
       <territoryOwner territory="Burgundy" owner="France"/>
       <territoryOwner territory="Normandy" owner="France"/>
-      <territoryOwner territory="Orleanais" owner="France"/>
+      <territoryOwner territory="Ile-de-France" owner="France"/>
       <territoryOwner territory="Champagne" owner="France"/>
       <territoryOwner territory="Languedoc" owner="France"/>
       <territoryOwner territory="Auvergne" owner="France"/>
@@ -6046,7 +6046,7 @@
       <territoryOwner territory="Silesia" owner="KingdomOfPrussia"/>
       <territoryOwner territory="Magdeburg" owner="KingdomOfPrussia"/>
       <territoryOwner territory="Saxony" owner="KingdomOfPrussia"/>
-      <territoryOwner territory="Warszowa" owner="KingdomOfPrussia"/>
+      <territoryOwner territory="Warsaw" owner="KingdomOfPrussia"/>
       <territoryOwner territory="Krakow" owner="KingdomOfPrussia"/>
       <territoryOwner territory="Posen" owner="KingdomOfPrussia"/>
       <territoryOwner territory="Galicia" owner="KingdomOfPrussia"/>
@@ -6120,10 +6120,10 @@
       <unitPlacement unitType="Fortress" territory="Majorca" quantity="4" owner="UnitedKingdom"/>
       <unitPlacement unitType="Marines" territory="Majorca" quantity="3" owner="UnitedKingdom"/>
       <unitPlacement unitType="Chasseurs" territory="Majorca" quantity="2" owner="UnitedKingdom"/>
-      <unitPlacement unitType="Fusiliers" territory="Hanovre" quantity="2" owner="UnitedKingdom"/>
-      <unitPlacement unitType="Dragoons" territory="Hanovre" quantity="1" owner="UnitedKingdom"/>
-      <unitPlacement unitType="Artillery" territory="Hanovre" quantity="1" owner="UnitedKingdom"/>
-      <unitPlacement unitType="Fortress" territory="Hanovre" quantity="1" owner="UnitedKingdom"/>
+      <unitPlacement unitType="Fusiliers" territory="Hanover" quantity="2" owner="UnitedKingdom"/>
+      <unitPlacement unitType="Dragoons" territory="Hanover" quantity="1" owner="UnitedKingdom"/>
+      <unitPlacement unitType="Artillery" territory="Hanover" quantity="1" owner="UnitedKingdom"/>
+      <unitPlacement unitType="Fortress" territory="Hanover" quantity="1" owner="UnitedKingdom"/>
       <unitPlacement unitType="Fortress" territory="Andalusia" quantity="6" owner="UnitedKingdom"/>
       <unitPlacement unitType="Mortella_Tower" territory="Andalusia" quantity="3" owner="UnitedKingdom"/>
       <unitPlacement unitType="Marines" territory="Ulster" quantity="1" owner="UnitedKingdom"/>
@@ -6148,11 +6148,11 @@
       <unitPlacement unitType="Corvette" territory="SZ24" quantity="1" owner="UnitedKingdom"/>
       <unitPlacement unitType="Corvette" territory="SZ22" quantity="1" owner="UnitedKingdom"/>
       <!-- France Unit Placements -->
-      <unitPlacement unitType="General" territory="Orleanais" quantity="1" owner="France"/>
-      <unitPlacement unitType="Capital" territory="Orleanais" quantity="1" owner="France"/>
-      <unitPlacement unitType="Mortella_Tower" territory="Orleanais" quantity="1" owner="France"/>
-      <unitPlacement unitType="Horse_Artillery" territory="Orleanais" quantity="1" owner="France"/>
-      <unitPlacement unitType="Howitzer" territory="Orleanais" quantity="1" owner="France"/>
+      <unitPlacement unitType="General" territory="Ile-de-France" quantity="1" owner="France"/>
+      <unitPlacement unitType="Capital" territory="Ile-de-France" quantity="1" owner="France"/>
+      <unitPlacement unitType="Mortella_Tower" territory="Ile-de-France" quantity="1" owner="France"/>
+      <unitPlacement unitType="Horse_Artillery" territory="Ile-de-France" quantity="1" owner="France"/>
+      <unitPlacement unitType="Howitzer" territory="Ile-de-France" quantity="1" owner="France"/>
       <unitPlacement unitType="Chasseurs" territory="Normandy" quantity="1" owner="France"/>
       <unitPlacement unitType="Dragoons" territory="Normandy" quantity="2" owner="France"/>
       <unitPlacement unitType="Hussars" territory="Normandy" quantity="1" owner="France"/>
@@ -6244,7 +6244,7 @@
       <unitPlacement unitType="Fusiliers" territory="Silesia" quantity="1" owner="KingdomOfPrussia"/>
       <unitPlacement unitType="Chasseurs" territory="Silesia" quantity="2" owner="KingdomOfPrussia"/>
       <unitPlacement unitType="Fusiliers" territory="Posen" quantity="1" owner="KingdomOfPrussia"/>
-      <unitPlacement unitType="Fusiliers" territory="Warszowa" quantity="2" owner="KingdomOfPrussia"/>
+      <unitPlacement unitType="Fusiliers" territory="Warsaw" quantity="2" owner="KingdomOfPrussia"/>
       <unitPlacement unitType="Fusiliers" territory="Krakow" quantity="2" owner="KingdomOfPrussia"/>
       <unitPlacement unitType="Chasseurs" territory="Krakow" quantity="1" owner="KingdomOfPrussia"/>
       <unitPlacement unitType="Artillery" territory="Krakow" quantity="1" owner="KingdomOfPrussia"/>
@@ -6405,7 +6405,7 @@
       <unitPlacement unitType="Barque" territory="SZ10" quantity="1" owner="Sweden"/>
       <unitPlacement unitType="Barque" territory="SZ20" quantity="1" owner="Sweden"/>
       <!-- Neutral Unit Placements -->
-      <unitPlacement unitType="Fusiliers" territory="Norvege" quantity="3"/>
+      <unitPlacement unitType="Fusiliers" territory="Norway" quantity="3"/>
       <unitPlacement unitType="Chasseurs" territory="Mecklenburg" quantity="2"/>
       <unitPlacement unitType="Chasseurs" territory="Cologne" quantity="2"/>
       <unitPlacement unitType="Fusiliers" territory="Cologne" quantity="1"/>
@@ -6415,10 +6415,10 @@
       <unitPlacement unitType="Fusiliers" territory="Helvetica" quantity="3"/>
       <unitPlacement unitType="Fusiliers" territory="Liechtenstein" quantity="3"/>
       <unitPlacement unitType="Chasseurs" territory="Liguria" quantity="2"/>
-      <unitPlacement unitType="Chasseurs" territory="Lombardi" quantity="2"/>
+      <unitPlacement unitType="Chasseurs" territory="Lombardy" quantity="2"/>
       <unitPlacement unitType="Fusiliers" territory="Venetia" quantity="1"/>
       <unitPlacement unitType="Fusiliers" territory="Bologna" quantity="2"/>
-      <unitPlacement unitType="Chasseurs" territory="Eturia" quantity="2"/>
+      <unitPlacement unitType="Chasseurs" territory="Etruria" quantity="2"/>
       <unitPlacement unitType="Fusiliers" territory="Umbria" quantity="2"/>
       <unitPlacement unitType="Fusiliers" territory="Rome" quantity="2"/>
       <unitPlacement unitType="Chasseurs" territory="Rome" quantity="2"/>
@@ -6430,8 +6430,8 @@
       <unitPlacement unitType="Fusiliers" territory="Sardinia" quantity="2"/>
       <unitPlacement unitType="Chasseurs" territory="Sardinia" quantity="1"/>
       <unitPlacement unitType="Fusiliers" territory="Oporto" quantity="3"/>
-      <unitPlacement unitType="Fusiliers" territory="Alemtejo" quantity="1"/>
-      <unitPlacement unitType="Fortress" territory="Alemtejo" quantity="1"/>
+      <unitPlacement unitType="Fusiliers" territory="Alentejo" quantity="1"/>
+      <unitPlacement unitType="Fortress" territory="Alentejo" quantity="1"/>
       <unitPlacement unitType="Chasseurs" territory="Algarve" quantity="4"/>
       <unitPlacement unitType="Fusiliers" territory="Odessa" quantity="1"/>
       <unitPlacement unitType="Chasseurs" territory="Odessa" quantity="1"/>
@@ -6441,7 +6441,7 @@
       <unitPlacement unitType="Cuirassiers" territory="Mordvins" quantity="1"/>
       <unitPlacement unitType="Fusiliers" territory="Tsaritsyn" quantity="1"/>
       <unitPlacement unitType="Cuirassiers" territory="Tsaritsyn" quantity="1"/>
-      <unitPlacement unitType="Fusiliers" territory="Kirghix" quantity="1"/>
+      <unitPlacement unitType="Fusiliers" territory="Kirghiz" quantity="1"/>
       <unitPlacement unitType="Chasseurs" territory="Astrakahn" quantity="1"/>
       <unitPlacement unitType="Fusiliers" territory="Astrakahn" quantity="1"/>
       <unitPlacement unitType="Hussars" territory="Astrakahn" quantity="1"/>
@@ -6711,13 +6711,13 @@
     </property>
     <!-- Map Name: also used for map utils when asked -->
     <property name="mapName" value="napoleonic_empires" editable="false"/>
-    <property name="notes" value="&lt;H1&gt;Napoleonic Empires by LSSAH and Veqryn&lt;br&gt;&lt;/H1&gt;   The empires of europe are at war. &lt;br&gt;&lt;br&gt;  The upstart French republic has followed in the footsteps of their American compatriots across the sea and cast off the trappings of monarchy. &lt;br&gt; Can this new light in europe survive against a host of squabbling adversaries? &lt;br&gt; Or will it fall victim to its own aspirations for empire...&lt;br&gt; Will the russians be forced to sing La Marseillaise? &lt;br&gt; Will the English see the Guillotine raised in Piccadilly?&lt;br&gt; Or will the rule of the monarchs be insured by the restoration of Louis XVIII to the Parisian throne?&lt;br&gt;&lt;br&gt;&lt;br&gt;    CANALS:&lt;br&gt; Oresund (Holstein,Sjaelland)(SZ10,SZ11)&lt;br&gt; Kerch Straight (Crimea,Astrakahn)(SZ97,SZ101)&lt;br&gt; Strait of Messina (Sicily,Calabria)(SZ70,SZ71)&lt;br&gt; Neva River (Karelia,Ingria)(SZ2,SZ3)(Russia can build navy in the lake)&lt;br&gt; Bosphorus (Constantinople,Kiutayeh)(SZ84,SZ92)(connects Turkey, Balkans by land)&lt;br&gt;&lt;br&gt;   UNITS and RULES:&lt;br&gt; Battleships DO NOT REPAIR at end of turn.&lt;br&gt; The number of Bombardments allowed is restricted to the number of units making an amphibious assault, however bombardments still kill units without the unit getting to return fire.&lt;br&gt; Extra Units are available starting on round 2. Un-check the game option 'Use Triggers' to turn off these units permanently.&lt;br&gt; Encampments are permanent, and can be captured.&lt;br&gt; Generals can move and raise troops in the territory they occupy, IF you owned that territory at the beginning of your turn.&lt;br&gt; Generals, Encampments, and Capitals are Factories, meaning they follow all normal factory rules.  They can be purchased and placed anywhere you owned at beginning of turn, they can produce anywhere you owned at beginning of turn, and they can be captured&lt;br&gt; Barques (green transports) are not able to capture convoy zones.&lt;br&gt; Capturing a Convoy Zone denies the enemy their income, but does not provide you with any income, and can only be done during your Combat Move.&lt;br&gt; &lt;br&gt; Victory Conditions:&lt;br&gt; 11 vc = Projections of Power&lt;br&gt; 12 vc = Honorable Surrender&lt;br&gt; 13 vc = Total Victory (default)&lt;br&gt; &lt;br&gt;&lt;br&gt;   Actual Alliances in this game:&lt;br&gt; France ......................... Carolingians&lt;br&gt; Spain ........................... Carolingians&lt;br&gt; Sweden ....................... Carolingians&lt;br&gt; OttomanEmpire ............ Carolingians&lt;br&gt;  UnitedKingdom ............. Coalition&lt;br&gt; KingdomOfPrussia ........ Coalition&lt;br&gt; AustrianEmpire ............. Coalition&lt;br&gt; Russia ......................... Coalition&lt;br&gt;  (Light Blue = Neutral Nations, which can be attacked by anyone and everyone)&lt;br&gt; &lt;br&gt;  Historical Alliances:&lt;br&gt; Nation................................ Allies&lt;br&gt; 1.France............................ SPN SWD&lt;br&gt; 2.United Kingdom............... AUS PRU RUS OTT&lt;br&gt; 3.Spain.............................. OTT FRA SWD&lt;br&gt; 4.Kingdom of Prussia.......... RUS SWD AUS UK&lt;br&gt; 5.Sweden........................... FRA SPN PRU&lt;br&gt; 6.Austrian Empire............... UK OTT PRU RUS&lt;br&gt; 7.Ottoman Empire............... UK AUS SPN&lt;br&gt; 8.Russia............................. PRU AUS UK&lt;br&gt;   &lt;br&gt; &lt;br&gt;Unit List: &lt;br&gt;attack/defense/movement/cost .... special &lt;br&gt;1/2/1/4 Fusiliers . Supportable &lt;br&gt;1/3/1/5 Chasseurs . Supportable &lt;br&gt;3/2/1/6 Grenadiers . Supportable &lt;br&gt;2/2/1/6 Marines . Amphibious Assault +1 Attack, TransportCost: 1 &lt;br&gt;1/1/1/4 Howitzer . Gives Support (+1 attack) &lt;br&gt;2/1/1/5 Artillery . Gives Support (+1 attack) &lt;br&gt;1/1/2/5 Horse Artillery . Blitz, Gives Support (+1 attack) &lt;br&gt;1/1/2/4 Hussars . Blitz &lt;br&gt;2/2/2/6 Dragoons . Blitz, Supportable &lt;br&gt;3/2/2/7 Cuirassiers . Blitz, Supportable &lt;br&gt;0/1/2/8 Barque . Transport Capacity: 3 &lt;br&gt;1/1/2/6 Cutter . Gives Support (+1 attack) &lt;br&gt;1/2/2/8 Brigantine . Supportable, TCapacity: 1 &lt;br&gt;2/1/2/9 Corvette . First Strike, Can Retreat (Is Sub), TCapacity: 1 &lt;br&gt;3/2/2/12 Frigate . Supportable, Bombard, TC: 1 &lt;br&gt;4/4/2/21 Battleship . 2 Hit Points (doesn't repair), Supportable, Bombard, TC: 1 &lt;br&gt;0/0/0/10 Encampment . Can Produce Units, Can be Captured &lt;br&gt;0/0/1/14 General . Can Produce Units on Territory you owned at beginning of turn, Can be Captured, Can be Transported, TCost=3 &lt;br&gt; &lt;br&gt;Special/Extra Units: &lt;br&gt;2/2/0/3 Mortella Tower &lt;br&gt;4/4/0/5 Fortress &lt;br&gt;5/1/1/8 Mortars . Gives Support (+1 attack) &lt;br&gt;4/3/3/9 Marshal . Blitz, Supportable &lt;br&gt;4/3/3/9 Ney/Wellington/Blucher/Charles/Kutusov . Blitz, Supportable &lt;br&gt; &lt;br&gt;Infantry-type units have TransportCost=2, while Cavalry-type units have TCost=3 &lt;br&gt;Marines have TCost=1 (can fit on any boat), Marshals and Artillery have TCost=2 &lt;br&gt;Corvettes are treated as submarines.  Corvettes can retreat separately from the main force during offense, and can retreat when on the defense to any adjacent friendly/empty sea zone. &lt;br&gt;Fortresses and Towers are normal units, and as such they must be placed with a factory of some kind (a general, encampment, or capital) &lt;br&gt; &lt;br&gt; &lt;br&gt;STRATEGY HELP and OPENING MOVES &lt;br&gt; &lt;br&gt;On Units: &lt;br&gt;Barques are the Green-Bottom boats, and they are the Transports of this game. &lt;br&gt;Fusiliers and Howitzers are the most efficient units to buy.  If bought in pairs, they are essentially 3att/3def/1mov/8cost with 2 hit points (Hitpoints matter alot!). &lt;br&gt;Cutters and Brigantines/Corvettes are the most efficient naval units to buy.  If bought in pairs, they are essentially 3att/3def/2mov/14cost with 2 hit points, (or 4/2/2/15 if cutter + corvette, assuming you have ships for the cutter to support). &lt;br&gt; &lt;br&gt;As France: &lt;br&gt;You have many options and no required opening moves. &lt;br&gt;Obviously you should take Flanders, Cologne, and Provence. &lt;br&gt;Option 1) Go Heavy into Germany and NorthWestern Europe &lt;br&gt;Option 2) Go Heavy into Italy &lt;br&gt;Option 3) Atlantic Fleet builds &lt;br&gt;Option 4) Med Fleet builds &lt;br&gt;Option 5) Take Egypt and Optionally build an encampment or general down there. &lt;br&gt;Option 6) Send the Egypt fleet back towards Italy (or up to black sea) &lt;br&gt;Generally speaking you can probably do 2-3 out of those 6, as trying to do more would spread you too thin. &lt;br&gt; &lt;br&gt;As England: &lt;br&gt;You have the most options and no required opening moves. &lt;br&gt;Try to kill the remains of the english channel french fleet. &lt;br&gt;You can use the frigate near ireland for shore bombardments into ireland (with the marine), and even help with the northumberland marine too. &lt;br&gt;Your Majorica fleet can kill the spanish fleet if the french did not support it, and otherwise you can take corsica, sardinia, valencia, or tunisia with the marines there, or you can head for the french convoy zone and steal it. &lt;br&gt;Your other med fleet can go towards the french med fleet, or try to link up with the majorica fleet, or head to Candia (crete).  You can also build an encampment in either Candia or Majorica, though Candia can usually last longer, and can be used to pressure the ottomons. &lt;br&gt;England should try to have more fleet than the spanish at all times. &lt;br&gt;It is generally a good idea to help the Prussians push Sweden out of Jutland.  After that, you can turn your attention to northern france, northwestern europe, or invade norway and sweden. &lt;br&gt;Get the Swedish and French convoy zones near England as soon as you can. &lt;br&gt; &lt;br&gt;As Spain: &lt;br&gt;Take Oporto. &lt;br&gt;Position Units and choose your build in order to take Lisbon on the second turn, and maybe Andalusia (Gibraltar) on the third turn. &lt;br&gt;Your general can head for Valencia and build fleet, or La Mancha and build units this turn.  &lt;br&gt;Usually not a good idea to threaten England in the Atlantic the first two turns, though you can and should threaten them later. &lt;br&gt;You also need to send some guys into North Africa, and can do so on the first turn depending, but at least by the third turn.  Your goal should be to eventually be getting +10 pu's a turn out of africa. &lt;br&gt;Option 1) Attempt to rid the Med of the UK &lt;br&gt;Option 2) Begin a Naval building war against the UK in the atlantic &lt;br&gt;Option 3) Build all land, sending to either northern france or italy. &lt;br&gt; &lt;br&gt;As Prussia: &lt;br&gt;Take Mecklenburg. &lt;br&gt;You can choose to attack Moldovia if you want. &lt;br&gt;Generally speaking your goal should be to push Sweden out of Holstein, while keeping the French OR Swedish in check. &lt;br&gt;Option 1) Go 100% navy.  Assuming Jutland and Finland fall by the end of turn 3, you can win against Sweden's Navy on turn 6, even if Sweden goes 100% navy also. &lt;br&gt;Option 2) Go a little navy to start, to hold on to your convoy zone for a few turns, then switch to 100% land. &lt;br&gt;Option 3) Go 100% land.  You will have to garrison Prussia and your north.  Can pay off quickly if France can be stopped from advancing. &lt;br&gt; &lt;br&gt;As Sweden: &lt;br&gt;Consolidate your fleet in SZ9 and move General to Ostra Gotaland. &lt;br&gt;You should attack St. Petersburg with everything that can make it in Finland and Karelia.  You should retreat to Karelia after 1 round.  You should not win in St. Petersburg. &lt;br&gt;You can build 1 Battleship and 1 Cutter first turn. &lt;br&gt;If Prussia builds 100% navy, your choices are 1) to keep up and build 100% navy also, hoping french can pressure prussia, or 2) send your fleet to sz11 or build extremely defensive fleet, or just save your money for multiple turns &lt;br&gt;If Prussia does not go navy, you should still build navy first turn, but after that you can build a barque or two and begin reinforcing jutland, finland, and invading all the coastal areas around you.  Perhaps even drop off a general somewhere to build on the mainland. &lt;br&gt; &lt;br&gt;As Austria: &lt;br&gt;Do not forget to move your troops in Hollande (and each turn after that until they get where you want them to go). &lt;br&gt;Take Bavaria and Venetia. &lt;br&gt;You can also take 1 Ottomon territory this turn most likely. &lt;br&gt;Build cheap units as fodder. &lt;br&gt;Sit back and build, perpare for french assault eventually.  Play check with French forces. &lt;br&gt;You can also swing into Italy when the time is right and the French are not prepared to prevent you taking Rome. &lt;br&gt;Pressuring Ottomons can be done but is risky, as if you get too far away from Vienna the French might decided to take it from you. &lt;br&gt; &lt;br&gt;As The Ottomons: &lt;br&gt;Retreat northern forces closer to Constantinople. &lt;br&gt;Move Brigantine in SZ93 closer to Russian Convoy, take russian convoy on turn 2 with brig. &lt;br&gt;You use your marines against an enemy in moldovia, or you can move them to use turn 2 or 3 in the med against the neutrals. &lt;br&gt;If you pick up your general with the barque and drop him off in Sinop, you can build a cavalry there and use it against Armenia. &lt;br&gt;You can attack Edessa first turn, but if you lose any guys taking Armenia turn 2 gets more painful.  Might be worth waiting and moving all troops closer to Armenia turn 1 without attacking. &lt;br&gt;Overall, your goal is take significant money out of the middle east, while holding off Russian hordes, Austrian adventuring, and the occasional UK amphibious assault. &lt;br&gt;Survive long enough while taking neutrals and you become a threat who can push back, but at the beginning you mostly just try to survive.   &lt;br&gt;If Austria does not send much against you, or Sweden forces Russia to head north, you can go on an early offensive, but don't get in over your head. &lt;br&gt;You can also send all your navy to the med and challenge the UK for supremecy there. &lt;br&gt; &lt;br&gt;As Russia: &lt;br&gt;Your job is to push Sweden out of Finland, and Push the Ottomons out of Armenia, while threatening and holding down any Ottomons near Constantinople that way they do not pressure Austria.  You can also send a few spare troops to defend Prussia and Austrian capitols. &lt;br&gt;Pretty simple, you want to send at least 20 units north.... then send everything else south. &lt;br&gt;If Prussia is not going navy, you will need to send a unit north every turn just to build up a defense up there in case sweden attacks.  &lt;br&gt;Otherwise, send everything you build south every turn. &lt;br&gt;You can also send a general south and build Navy.  After you take the two neutrals there, your navy can exit the harbor and take back your convoy zone.  The navy builds often force the Ottomons to keep up in navy, which is not something they can easily do. &lt;br&gt;Mordvins does touch sz101, so you can build navy with a general there. &lt;br&gt;SZ2 touches SZ3, and a general in Novgorod can build a fleet in sz2 that Sweden can not touch until you are prepared to exit the lake and attack Sweden's fleet. It is difficult to for Russia to defeat Sweden alone, and it is much better to have UK or Prussia attack Sweden at the same time. &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;Optional Rules: &lt;br&gt;Optional Rule: Turn on 'Units Can Be Destroyed Instead Of Captured' to have the following effect: Captured Generals are executed, Encampments burned to the ground, and Capitals razed (if a player loses their capital, then regains it, they must build a camp or general there in order to produce there). &lt;br&gt;Optional Canal: Andalusia (Gibralter) must be controlled to move between SZ53-54 &lt;br&gt;Optional Andalusia (Gibraltar) rules: Gibraltar does not touch any land, therefor no units can enter it by land, and no units may exit it onto land.  Must be invaded by ship. &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 2.0 - 4.x changes made by Veqryn. &lt;br&gt; &lt;br&gt;You may or may not notice that Spain collect 10 less income per turn than their total production, and that France collects 6 less, and the UK 4 less. &lt;br&gt;This is because in order keep the game balanced, I was forced to create negative modifiers for their income.  These 3 nations will receive these negative modifiers every single turn, no matter what happens. &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 4.0 - 4.0.x changes: &lt;br&gt;Tweaking of Political rules. &lt;br&gt;Removing a few neutral units from middle east and north africa. &lt;br&gt;Increasing Mortar defense by 1, and increasing cost by 1. &lt;br&gt;Decreased Fortress cost by 1. &lt;br&gt;Increasing Marshal movement by 1 (to 3) so that they match the other special cavalry. &lt;br&gt;Decreasing cost of Generals and Encampments by 1. &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 3.9.3 - 4.0 changes: &lt;br&gt;Added politics as an option, which defaults to false. If turned on, you may change your alliances during the game. &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 3.9.2 - 3.9.3 changes: &lt;br&gt;Removed 1 Forterss from Hanovre, and turned 1 Chasseurs into Fusiliers &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 3.8 - 3.9 changes: &lt;br&gt;Removed connection between Bohus and sz21. &lt;br&gt;Added two fortresses to Majorca. &lt;br&gt;Changed a single tower and fortress on Candia into three Chasseurs. &lt;br&gt;Removed a Tower from Catalonia. &lt;br&gt;Updated to new engine:  &lt;br&gt;Barques (the transports) no longer capture convoy zones, while all other boats still can. &lt;br&gt;Now uses Triggers to prevent purchases of Marshals, Mortars, Towers and Fortresses before the 2nd turn. &lt;br&gt;Added ability to have generals, encampments, and capitals destroyed with a game option. &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 3.7 - 3.8 changes: &lt;br&gt;Changed Default Victory Condition to be honorable surrender (13 vc), instead of total victory (14). &lt;br&gt;Removed 1 defense from the Mortar unit, so now it is zero defense (5/0/1 with artillery gives support ability). &lt;br&gt;Removed Austrian Cutter. &lt;br&gt;Removed Tower from Constantinople. &lt;br&gt;Changed Madrid Fortress to a Tower. &lt;br&gt;Added a Tower to Catalonia. &lt;br&gt;Gave Spain back 2 pu. &lt;br&gt;Changed Spain's convoy from 16 to 14 (negative NO is now -10, to keep the original income of 4 from the convoy the same). &lt;br&gt; &lt;br&gt; &lt;br&gt;To see previous changes from 2.0 - 3.7, see the comments at the end of the xml file. &lt;br&gt; &lt;br&gt;Original Map and Game, complete to Version 2.0 by LSSAH. &lt;br&gt;Changes 2.0-4.x by Veqryn (with additional help from Pulicat, Lalapaloza, Cal2), Last Edited June, 2012.  "/>
+    <property name="notes" value="&lt;H1&gt;Napoleonic Empires by LSSAH and Veqryn&lt;br&gt;&lt;/H1&gt;   The empires of europe are at war. &lt;br&gt;&lt;br&gt;  The upstart French republic has followed in the footsteps of their American compatriots across the sea and cast off the trappings of monarchy. &lt;br&gt; Can this new light in europe survive against a host of squabbling adversaries? &lt;br&gt; Or will it fall victim to its own aspirations for empire...&lt;br&gt; Will the russians be forced to sing La Marseillaise? &lt;br&gt; Will the English see the Guillotine raised in Piccadilly?&lt;br&gt; Or will the rule of the monarchs be insured by the restoration of Louis XVIII to the Parisian throne?&lt;br&gt;&lt;br&gt;&lt;br&gt;    CANALS:&lt;br&gt; Oresund (Holstein,Sjaelland)(SZ10,SZ11)&lt;br&gt; Kerch Straight (Crimea,Astrakahn)(SZ97,SZ101)&lt;br&gt; Strait of Messina (Sicily,Calabria)(SZ70,SZ71)&lt;br&gt; Neva River (Karelia,Ingria)(SZ2,SZ3)(Russia can build navy in the lake)&lt;br&gt; Bosphorus (Constantinople,Kiutayeh)(SZ84,SZ92)(connects Turkey, Balkans by land)&lt;br&gt;&lt;br&gt;   UNITS and RULES:&lt;br&gt; Battleships DO NOT REPAIR at end of turn.&lt;br&gt; The number of Bombardments allowed is restricted to the number of units making an amphibious assault, however bombardments still kill units without the unit getting to return fire.&lt;br&gt; Extra Units are available starting on round 2. Un-check the game option 'Use Triggers' to turn off these units permanently.&lt;br&gt; Encampments are permanent, and can be captured.&lt;br&gt; Generals can move and raise troops in the territory they occupy, IF you owned that territory at the beginning of your turn.&lt;br&gt; Generals, Encampments, and Capitals are Factories, meaning they follow all normal factory rules.  They can be purchased and placed anywhere you owned at beginning of turn, they can produce anywhere you owned at beginning of turn, and they can be captured&lt;br&gt; Barques (green transports) are not able to capture convoy zones.&lt;br&gt; Capturing a Convoy Zone denies the enemy their income, but does not provide you with any income, and can only be done during your Combat Move.&lt;br&gt; &lt;br&gt; Victory Conditions:&lt;br&gt; 11 vc = Projections of Power&lt;br&gt; 12 vc = Honorable Surrender&lt;br&gt; 13 vc = Total Victory (default)&lt;br&gt; &lt;br&gt;&lt;br&gt;   Actual Alliances in this game:&lt;br&gt; France ......................... Carolingians&lt;br&gt; Spain ........................... Carolingians&lt;br&gt; Sweden ....................... Carolingians&lt;br&gt; OttomanEmpire ............ Carolingians&lt;br&gt;  UnitedKingdom ............. Coalition&lt;br&gt; KingdomOfPrussia ........ Coalition&lt;br&gt; AustrianEmpire ............. Coalition&lt;br&gt; Russia ......................... Coalition&lt;br&gt;  (Light Blue = Neutral Nations, which can be attacked by anyone and everyone)&lt;br&gt; &lt;br&gt;  Historical Alliances:&lt;br&gt; Nation................................ Allies&lt;br&gt; 1.France............................ SPN SWD&lt;br&gt; 2.United Kingdom............... AUS PRU RUS OTT&lt;br&gt; 3.Spain.............................. OTT FRA SWD&lt;br&gt; 4.Kingdom of Prussia.......... RUS SWD AUS UK&lt;br&gt; 5.Sweden........................... FRA SPN PRU&lt;br&gt; 6.Austrian Empire............... UK OTT PRU RUS&lt;br&gt; 7.Ottoman Empire............... UK AUS SPN&lt;br&gt; 8.Russia............................. PRU AUS UK&lt;br&gt;   &lt;br&gt; &lt;br&gt;Unit List: &lt;br&gt;attack/defense/movement/cost .... special &lt;br&gt;1/2/1/4 Fusiliers . Supportable &lt;br&gt;1/3/1/5 Chasseurs . Supportable &lt;br&gt;3/2/1/6 Grenadiers . Supportable &lt;br&gt;2/2/1/6 Marines . Amphibious Assault +1 Attack, TransportCost: 1 &lt;br&gt;1/1/1/4 Howitzer . Gives Support (+1 attack) &lt;br&gt;2/1/1/5 Artillery . Gives Support (+1 attack) &lt;br&gt;1/1/2/5 Horse Artillery . Blitz, Gives Support (+1 attack) &lt;br&gt;1/1/2/4 Hussars . Blitz &lt;br&gt;2/2/2/6 Dragoons . Blitz, Supportable &lt;br&gt;3/2/2/7 Cuirassiers . Blitz, Supportable &lt;br&gt;0/1/2/8 Barque . Transport Capacity: 3 &lt;br&gt;1/1/2/6 Cutter . Gives Support (+1 attack) &lt;br&gt;1/2/2/8 Brigantine . Supportable, TCapacity: 1 &lt;br&gt;2/1/2/9 Corvette . First Strike, Can Retreat (Is Sub), TCapacity: 1 &lt;br&gt;3/2/2/12 Frigate . Supportable, Bombard, TC: 1 &lt;br&gt;4/4/2/21 Battleship . 2 Hit Points (doesn't repair), Supportable, Bombard, TC: 1 &lt;br&gt;0/0/0/10 Encampment . Can Produce Units, Can be Captured &lt;br&gt;0/0/1/14 General . Can Produce Units on Territory you owned at beginning of turn, Can be Captured, Can be Transported, TCost=3 &lt;br&gt; &lt;br&gt;Special/Extra Units: &lt;br&gt;2/2/0/3 Mortella Tower &lt;br&gt;4/4/0/5 Fortress &lt;br&gt;5/1/1/8 Mortars . Gives Support (+1 attack) &lt;br&gt;4/3/3/9 Marshal . Blitz, Supportable &lt;br&gt;4/3/3/9 Ney/Wellington/Blucher/Charles/Kutusov . Blitz, Supportable &lt;br&gt; &lt;br&gt;Infantry-type units have TransportCost=2, while Cavalry-type units have TCost=3 &lt;br&gt;Marines have TCost=1 (can fit on any boat), Marshals and Artillery have TCost=2 &lt;br&gt;Corvettes are treated as submarines.  Corvettes can retreat separately from the main force during offense, and can retreat when on the defense to any adjacent friendly/empty sea zone. &lt;br&gt;Fortresses and Towers are normal units, and as such they must be placed with a factory of some kind (a general, encampment, or capital) &lt;br&gt; &lt;br&gt; &lt;br&gt;STRATEGY HELP and OPENING MOVES &lt;br&gt; &lt;br&gt;On Units: &lt;br&gt;Barques are the Green-Bottom boats, and they are the Transports of this game. &lt;br&gt;Fusiliers and Howitzers are the most efficient units to buy.  If bought in pairs, they are essentially 3att/3def/1mov/8cost with 2 hit points (Hitpoints matter alot!). &lt;br&gt;Cutters and Brigantines/Corvettes are the most efficient naval units to buy.  If bought in pairs, they are essentially 3att/3def/2mov/14cost with 2 hit points, (or 4/2/2/15 if cutter + corvette, assuming you have ships for the cutter to support). &lt;br&gt; &lt;br&gt;As France: &lt;br&gt;You have many options and no required opening moves. &lt;br&gt;Obviously you should take Flanders, Cologne, and Provence. &lt;br&gt;Option 1) Go Heavy into Germany and NorthWestern Europe &lt;br&gt;Option 2) Go Heavy into Italy &lt;br&gt;Option 3) Atlantic Fleet builds &lt;br&gt;Option 4) Med Fleet builds &lt;br&gt;Option 5) Take Egypt and Optionally build an encampment or general down there. &lt;br&gt;Option 6) Send the Egypt fleet back towards Italy (or up to black sea) &lt;br&gt;Generally speaking you can probably do 2-3 out of those 6, as trying to do more would spread you too thin. &lt;br&gt; &lt;br&gt;As England: &lt;br&gt;You have the most options and no required opening moves. &lt;br&gt;Try to kill the remains of the english channel french fleet. &lt;br&gt;You can use the frigate near ireland for shore bombardments into ireland (with the marine), and even help with the northumberland marine too. &lt;br&gt;Your Majorica fleet can kill the spanish fleet if the french did not support it, and otherwise you can take corsica, sardinia, valencia, or tunisia with the marines there, or you can head for the french convoy zone and steal it. &lt;br&gt;Your other med fleet can go towards the french med fleet, or try to link up with the majorica fleet, or head to Candia (crete).  You can also build an encampment in either Candia or Majorica, though Candia can usually last longer, and can be used to pressure the ottomons. &lt;br&gt;England should try to have more fleet than the spanish at all times. &lt;br&gt;It is generally a good idea to help the Prussians push Sweden out of Jutland.  After that, you can turn your attention to northern france, northwestern europe, or invade norway and sweden. &lt;br&gt;Get the Swedish and French convoy zones near England as soon as you can. &lt;br&gt; &lt;br&gt;As Spain: &lt;br&gt;Take Oporto. &lt;br&gt;Position Units and choose your build in order to take Lisbon on the second turn, and maybe Andalusia (Gibraltar) on the third turn. &lt;br&gt;Your general can head for Valencia and build fleet, or La Mancha and build units this turn.  &lt;br&gt;Usually not a good idea to threaten England in the Atlantic the first two turns, though you can and should threaten them later. &lt;br&gt;You also need to send some guys into North Africa, and can do so on the first turn depending, but at least by the third turn.  Your goal should be to eventually be getting +10 pu's a turn out of africa. &lt;br&gt;Option 1) Attempt to rid the Med of the UK &lt;br&gt;Option 2) Begin a Naval building war against the UK in the atlantic &lt;br&gt;Option 3) Build all land, sending to either northern france or italy. &lt;br&gt; &lt;br&gt;As Prussia: &lt;br&gt;Take Mecklenburg. &lt;br&gt;You can choose to attack Moldovia if you want. &lt;br&gt;Generally speaking your goal should be to push Sweden out of Holstein, while keeping the French OR Swedish in check. &lt;br&gt;Option 1) Go 100% navy.  Assuming Jutland and Finland fall by the end of turn 3, you can win against Sweden's Navy on turn 6, even if Sweden goes 100% navy also. &lt;br&gt;Option 2) Go a little navy to start, to hold on to your convoy zone for a few turns, then switch to 100% land. &lt;br&gt;Option 3) Go 100% land.  You will have to garrison Prussia and your north.  Can pay off quickly if France can be stopped from advancing. &lt;br&gt; &lt;br&gt;As Sweden: &lt;br&gt;Consolidate your fleet in SZ9 and move General to Ostra Gotaland. &lt;br&gt;You should attack St. Petersburg with everything that can make it in Finland and Karelia.  You should retreat to Karelia after 1 round.  You should not win in St. Petersburg. &lt;br&gt;You can build 1 Battleship and 1 Cutter first turn. &lt;br&gt;If Prussia builds 100% navy, your choices are 1) to keep up and build 100% navy also, hoping french can pressure prussia, or 2) send your fleet to sz11 or build extremely defensive fleet, or just save your money for multiple turns &lt;br&gt;If Prussia does not go navy, you should still build navy first turn, but after that you can build a barque or two and begin reinforcing jutland, finland, and invading all the coastal areas around you.  Perhaps even drop off a general somewhere to build on the mainland. &lt;br&gt; &lt;br&gt;As Austria: &lt;br&gt;Do not forget to move your troops in Hollande (and each turn after that until they get where you want them to go). &lt;br&gt;Take Bavaria and Venetia. &lt;br&gt;You can also take 1 Ottomon territory this turn most likely. &lt;br&gt;Build cheap units as fodder. &lt;br&gt;Sit back and build, perpare for french assault eventually.  Play check with French forces. &lt;br&gt;You can also swing into Italy when the time is right and the French are not prepared to prevent you taking Rome. &lt;br&gt;Pressuring Ottomons can be done but is risky, as if you get too far away from Vienna the French might decided to take it from you. &lt;br&gt; &lt;br&gt;As The Ottomons: &lt;br&gt;Retreat northern forces closer to Constantinople. &lt;br&gt;Move Brigantine in SZ93 closer to Russian Convoy, take russian convoy on turn 2 with brig. &lt;br&gt;You use your marines against an enemy in moldovia, or you can move them to use turn 2 or 3 in the med against the neutrals. &lt;br&gt;If you pick up your general with the barque and drop him off in Sinop, you can build a cavalry there and use it against Armenia. &lt;br&gt;You can attack Edessa first turn, but if you lose any guys taking Armenia turn 2 gets more painful.  Might be worth waiting and moving all troops closer to Armenia turn 1 without attacking. &lt;br&gt;Overall, your goal is take significant money out of the middle east, while holding off Russian hordes, Austrian adventuring, and the occasional UK amphibious assault. &lt;br&gt;Survive long enough while taking neutrals and you become a threat who can push back, but at the beginning you mostly just try to survive.   &lt;br&gt;If Austria does not send much against you, or Sweden forces Russia to head north, you can go on an early offensive, but don't get in over your head. &lt;br&gt;You can also send all your navy to the med and challenge the UK for supremecy there. &lt;br&gt; &lt;br&gt;As Russia: &lt;br&gt;Your job is to push Sweden out of Finland, and Push the Ottomons out of Armenia, while threatening and holding down any Ottomons near Constantinople that way they do not pressure Austria.  You can also send a few spare troops to defend Prussia and Austrian capitols. &lt;br&gt;Pretty simple, you want to send at least 20 units north.... then send everything else south. &lt;br&gt;If Prussia is not going navy, you will need to send a unit north every turn just to build up a defense up there in case sweden attacks.  &lt;br&gt;Otherwise, send everything you build south every turn. &lt;br&gt;You can also send a general south and build Navy.  After you take the two neutrals there, your navy can exit the harbor and take back your convoy zone.  The navy builds often force the Ottomons to keep up in navy, which is not something they can easily do. &lt;br&gt;Mordvins does touch sz101, so you can build navy with a general there. &lt;br&gt;SZ2 touches SZ3, and a general in Novgorod can build a fleet in sz2 that Sweden can not touch until you are prepared to exit the lake and attack Sweden's fleet. It is difficult to for Russia to defeat Sweden alone, and it is much better to have UK or Prussia attack Sweden at the same time. &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;Optional Rules: &lt;br&gt;Optional Rule: Turn on 'Units Can Be Destroyed Instead Of Captured' to have the following effect: Captured Generals are executed, Encampments burned to the ground, and Capitals razed (if a player loses their capital, then regains it, they must build a camp or general there in order to produce there). &lt;br&gt;Optional Canal: Andalusia (Gibralter) must be controlled to move between SZ53-54 &lt;br&gt;Optional Andalusia (Gibraltar) rules: Gibraltar does not touch any land, therefor no units can enter it by land, and no units may exit it onto land.  Must be invaded by ship. &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 2.0 - 4.x changes made by Veqryn. &lt;br&gt; &lt;br&gt;You may or may not notice that Spain collect 10 less income per turn than their total production, and that France collects 6 less, and the UK 4 less. &lt;br&gt;This is because in order keep the game balanced, I was forced to create negative modifiers for their income.  These 3 nations will receive these negative modifiers every single turn, no matter what happens. &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 4.0 - 4.0.x changes: &lt;br&gt;Tweaking of Political rules. &lt;br&gt;Removing a few neutral units from middle east and north africa. &lt;br&gt;Increasing Mortar defense by 1, and increasing cost by 1. &lt;br&gt;Decreased Fortress cost by 1. &lt;br&gt;Increasing Marshal movement by 1 (to 3) so that they match the other special cavalry. &lt;br&gt;Decreasing cost of Generals and Encampments by 1. &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 3.9.3 - 4.0 changes: &lt;br&gt;Added politics as an option, which defaults to false. If turned on, you may change your alliances during the game. &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 3.9.2 - 3.9.3 changes: &lt;br&gt;Removed 1 Forterss from Hanover, and turned 1 Chasseurs into Fusiliers &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 3.8 - 3.9 changes: &lt;br&gt;Removed connection between Bohus and sz21. &lt;br&gt;Added two fortresses to Majorca. &lt;br&gt;Changed a single tower and fortress on Candia into three Chasseurs. &lt;br&gt;Removed a Tower from Catalonia. &lt;br&gt;Updated to new engine:  &lt;br&gt;Barques (the transports) no longer capture convoy zones, while all other boats still can. &lt;br&gt;Now uses Triggers to prevent purchases of Marshals, Mortars, Towers and Fortresses before the 2nd turn. &lt;br&gt;Added ability to have generals, encampments, and capitals destroyed with a game option. &lt;br&gt; &lt;br&gt; &lt;br&gt;Version 3.7 - 3.8 changes: &lt;br&gt;Changed Default Victory Condition to be honorable surrender (13 vc), instead of total victory (14). &lt;br&gt;Removed 1 defense from the Mortar unit, so now it is zero defense (5/0/1 with artillery gives support ability). &lt;br&gt;Removed Austrian Cutter. &lt;br&gt;Removed Tower from Constantinople. &lt;br&gt;Changed Madrid Fortress to a Tower. &lt;br&gt;Added a Tower to Catalonia. &lt;br&gt;Gave Spain back 2 pu. &lt;br&gt;Changed Spain's convoy from 16 to 14 (negative NO is now -10, to keep the original income of 4 from the convoy the same). &lt;br&gt; &lt;br&gt; &lt;br&gt;To see previous changes from 2.0 - 3.7, see the comments at the end of the xml file. &lt;br&gt; &lt;br&gt;Original Map and Game, complete to Version 2.0 by LSSAH. &lt;br&gt;Changes 2.0-4.0 by Veqryn (with additional help from Pulicat, Lalapaloza, Cal2). &lt;br&gt;Changes 4.1 by redrum, Last Edited October, 2016."/>
   </propertyList>
   <!--
 &lt;br&gt;Version 3.6 - 3.7 changes:
 &lt;br&gt;Changed Novgorod from 2 to 3, Moscovia from 6 to 5.
 &lt;br&gt;Removed 1 Swedish marine from Svealand.
-&lt;br&gt;Added 1 Fortress to Hanovre.
+&lt;br&gt;Added 1 Fortress to Hanover.
 &lt;br&gt;Added 1 Tower to Hollande.
 &lt;br&gt;Changed Russian ingria marine back into an artillery, change a latvia artillery into a marine.
 &lt;br&gt;Moved 2 French Fusiliers from Paris to Anjou, and 1 fusilier from Picardy to Auvergne.
@@ -6854,7 +6854,7 @@
 &lt;br&gt;Candia and convoy SZ73 are now UK, along with a starting UK fleet in 73.
 &lt;br&gt;France has a fleet off Egypt, ready to take it or return home.  France now owns SZ38 convoy zone.  Removed 2 French Fusilier from Poitou.  
 &lt;br&gt;Moved Ottomon Marines to Istanbul, so that Ottos can not take Egypt til turn 3 or 4 if France declines to take it.  Added Ottomon Artillery back to Tarsus.
-&lt;br&gt;Removed 2 Russian Fusiliers from Severia, added 1 Hussar to Zala and Warszowa.  
+&lt;br&gt;Removed 2 Russian Fusiliers from Severia, added 1 Hussar to Zala and Warsaw.  
 &lt;br&gt;Removed 1 Mortella_Tower from Gibraltar, 1 Flanker from Majorica.
 &lt;br&gt;Addition of various Pirate vessels around and about the map, particularly concentrated where the Barbary corsairs were.
 &lt;br&gt;Fixed polygons.txt file, Corsica was hidden beneath the sea zone.  Also added Pirate flag to neutral vessels.
