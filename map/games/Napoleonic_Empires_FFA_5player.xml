@@ -108,7 +108,7 @@
     <territory name="Flanders"/>
     <territory name="SZ97" water="true"/>
     <territory name="Minsk"/>
-    <territory name="Galicia"/>
+    <territory name="Lodomeria"/>
     <territory name="Egypt"/>
     <territory name="SZ70" water="true"/>
     <territory name="SZ43" water="true"/>
@@ -863,21 +863,21 @@
     <connection t1="Severia" t2="Volhynia"/>
     <connection t1="Kiev" t2="Odessa"/>
     <connection t1="Kiev" t2="Bessarabia"/>
-    <connection t1="Kiev" t2="Galicia"/>
+    <connection t1="Kiev" t2="Lodomeria"/>
     <connection t1="Kiev" t2="Volhynia"/>
     <connection t1="Odessa" t2="Crimea"/>
     <connection t1="Odessa" t2="Bessarabia"/>
     <connection t1="Bessarabia" t2="Moldavia"/>
-    <connection t1="Bessarabia" t2="Galicia"/>
+    <connection t1="Bessarabia" t2="Lodomeria"/>
     <connection t1="Moldavia" t2="Wallachia"/>
     <connection t1="Moldavia" t2="Bulgaria"/>
     <connection t1="Moldavia" t2="Carpathians"/>
-    <connection t1="Moldavia" t2="Galicia"/>
-    <connection t1="Galicia" t2="Carpathians"/>
-    <connection t1="Galicia" t2="Volhynia"/>
-    <connection t1="Galicia" t2="Hungary"/>
-    <connection t1="Galicia" t2="Krakow"/>
-    <connection t1="Galicia" t2="Moravia"/>
+    <connection t1="Moldavia" t2="Lodomeria"/>
+    <connection t1="Lodomeria" t2="Carpathians"/>
+    <connection t1="Lodomeria" t2="Volhynia"/>
+    <connection t1="Lodomeria" t2="Hungary"/>
+    <connection t1="Lodomeria" t2="Krakow"/>
+    <connection t1="Lodomeria" t2="Moravia"/>
     <connection t1="Volhynia" t2="Krakow"/>
     <connection t1="Volhynia" t2="Warsaw"/>
     <connection t1="Lithuania" t2="Prussia"/>
@@ -898,7 +898,7 @@
     <connection t1="Hungary" t2="Zala"/>
     <connection t1="Hungary" t2="Transylvania"/>
     <connection t1="Hungary" t2="Slavonia"/>
-    <connection t1="Transylvania" t2="Galicia"/>
+    <connection t1="Transylvania" t2="Lodomeria"/>
     <connection t1="Transylvania" t2="Slavonia"/>
     <connection t1="Transylvania" t2="Carpathians"/>
     <connection t1="Transylvania" t2="Serbia"/>
@@ -2053,7 +2053,7 @@
     <attachment name="territoryAttachment" attachTo="Minsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Galicia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Lodomeria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Egypt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -4168,8 +4168,8 @@
       <unitPlacement unitType="Fusiliers" territory="Krakow" quantity="2"/>
       <unitPlacement unitType="Chasseurs" territory="Krakow" quantity="2"/>
       <unitPlacement unitType="Fusiliers" territory="Krakow" quantity="1"/>
-      <unitPlacement unitType="Fusiliers" territory="Galicia" quantity="2"/>
-      <unitPlacement unitType="Dragoons" territory="Galicia" quantity="1"/>
+      <unitPlacement unitType="Fusiliers" territory="Lodomeria" quantity="2"/>
+      <unitPlacement unitType="Dragoons" territory="Lodomeria" quantity="1"/>
       <unitPlacement unitType="Fusiliers" territory="Lithuania" quantity="1"/>
       <unitPlacement unitType="Dragoons" territory="Lithuania" quantity="1"/>
       <unitPlacement unitType="Fusiliers" territory="Lithuania" quantity="1"/>
