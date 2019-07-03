@@ -6335,194 +6335,474 @@
             <value>
                 <![CDATA[
 <html>
-    <body bgcolor="DADADA" align="center">
-        <div style="text-align: center;">
+    <body bgcolor="DDCCAA" align="center">
+        <div style="text-align: center; padding: 10px">
             <br/>
             <img src="mapScreenshot.png"/>
-            <H1>Napoleonic Empires by LSSAH and Veqryn</H1>
-            <br/>The empires of europe are at war.
-            <br/>The upstart French republic has followed in the footsteps of their American compatriots across the sea and cast off the trappings of monarchy. 
-            <br/>Can this new light in europe survive against a host of squabbling adversaries? 
-            <br/>Or will it fall victim to its own aspirations for empire...
-            <br/>Will the russians be forced to sing La Marseillaise? 
+            <h1 style="font-size:200%;color:001166">Napoleonic Empires</h1>
+            <span style="font-size:120%">
+                <b>Version 4.2</b>
+            </span>
+            <br/>
+            <br/>
+            <b>Created by: LSSAH</b>
+            <br/>
+            <b>Updated by: Veqryn and Redrum</b>
+            <br/>
+            <br/>The empires of Europe are at war.
+            <br/>The upstart French Republic has followed in the footsteps of their American compatriots across the sea and cast off the trappings of monarchy. 
+            <br/>Can this new light in Europe survive against a host of squabbling adversaries? 
+            <br/>Or will it fall victim to its own aspirations for an empire...
+            <br/>Will the Russians be forced to sing La Marseillaise? 
             <br/>Will the English see the Guillotine raised in Piccadilly?
-            <br/>Or will the rule of the monarchs be insured by the restoration of Louis XVIII to the Parisian throne?
+            <br/>Or will the rule of the monarchs be ensured by the restoration of Louis XVIII to the Parisian throne?
             <br/>
             <br/>
-            <br/>CANALS:
-            <br/>Oresund (Holstein,Sjaelland)(SZ10,SZ11)
-            <br/>Kerch Straight (Crimea,Astrakahn)(SZ97,SZ101)
-            <br/>Strait of Messina (Sicily,Calabria)(SZ70,SZ71)
-            <br/>Neva River (Karelia,Ingria)(SZ2,SZ3)(Russia can build navy in the lake)
-            <br/>Bosphorus (Constantinople,Kiutayeh)(SZ84,SZ92)(connects Turkey, Balkans by land)
-            <br/>
-            <br/>UNITS and RULES:
-            <br/>Battleships DO NOT REPAIR at end of turn.
-            <br/>The number of Bombardments allowed is restricted to the number of units making an amphibious assault, however bombardments still kill units without the unit getting to return fire.
-            <br/>Extra Units are available starting on round 2. Un-check the game option 'Use Triggers' to turn off these units permanently.
-            <br/>Encampments are permanent, and can be captured.
-            <br/>Generals can move and raise troops in the territory they occupy, IF you owned that territory at the beginning of your turn.
-            <br/>Generals, Encampments, and Capitals are Factories, meaning they follow all normal factory rules. They can be purchased and placed anywhere you owned at beginning of turn, they can produce anywhere you owned at beginning of turn, and they can be captured
-            <br/>Barques (green transports) are not able to capture convoy zones.
-            <br/>Capturing a Convoy Zone denies the enemy their income, but does not provide you with any income, and can only be done during your Combat Move.
-            <br/>You may or may not notice that Spain collect 10 less income per turn than their total production, and that France collects 6 less, and the UK 4 less. 
-            <br/>This is because in order keep the game balanced, I was forced to create negative modifiers for their income.  These 3 nations will receive these negative modifiers every single turn, no matter what happens.             
-            <br/>
-            <br/>Victory Conditions:
-            <br/>11 vc = Projections of Power
-            <br/>12 vc = Honorable Surrender
-            <br/>13 vc = Total Victory (default)
-            <br/>
-            <br/>
-            <br/>Actual Alliances in this game:
-            <br/>France ......................... Carolingians
-            <br/>Spain ........................... Carolingians
-            <br/>Sweden ....................... Carolingians
-            <br/>OttomanEmpire ............ Carolingians
-            <br/>UnitedKingdom ............. Coalition
-            <br/>KingdomOfPrussia ........ Coalition
-            <br/>AustrianEmpire ............. Coalition
-            <br/>Russia ......................... Coalition
-            <br/>(Light Blue = Neutral Nations, which can be attacked by anyone and everyone)
-            <br/>
-            <br/>Historical Alliances:
-            <br/>Nation................................ Allies
-            <br/>1.France............................ SPN SWD
-            <br/>2.United Kingdom............... AUS PRU RUS OTT
-            <br/>3.Spain.............................. OTT FRA SWD
-            <br/>4.Kingdom of Prussia.......... RUS SWD AUS UK
-            <br/>5.Sweden........................... FRA SPN PRU
-            <br/>6.Austrian Empire............... UK OTT PRU RUS
-            <br/>7.Ottoman Empire............... UK AUS SPN
-            <br/>8.Russia............................. PRU AUS UK
+            <table border="1" bgcolor="EEEEEE" align="center">
+                <th style="font-size:125%;000000" bgcolor="997744" colspan="2">Alliances</th>
+                <tr>
+                    <th bgcolor="CDBA96">Carolingians</th>
+                    <th bgcolor="CDBA96">Coalition</th>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">France</td>
+                    <td bgcolor="CCCC99">UnitedKingdom</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Spain</td>
+                    <td bgcolor="CCAA77">KingdomOfPrussia</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Sweden</td>
+                    <td bgcolor="CCCC99">AustrianEmpire</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">OttomanEmpire</td>
+                    <td bgcolor="CCAA77">Russia</td>
+                </tr>
+            </table>            
+            *Light Blue = Neutral Nations, which can be attacked by everyone            
             <br/>
             <br/>
-            <br/>Unit List: 
-            <br/>attack/defense/movement/cost .... special 
-            <br/>1/2/1/4 Fusiliers . Supportable 
-            <br/>1/3/1/5 Chasseurs . Supportable 
-            <br/>3/2/1/6 Grenadiers . Supportable 
-            <br/>2/2/1/6 Marines . Amphibious Assault +1 Attack, TransportCost: 1 
-            <br/>1/1/1/4 Howitzer . Gives Support (+1 attack) 
-            <br/>2/1/1/5 Artillery . Gives Support (+1 attack) 
-            <br/>1/1/2/5 Horse Artillery . Blitz, Gives Support (+1 attack) 
-            <br/>1/1/2/4 Hussars . Blitz 
-            <br/>2/2/2/6 Dragoons . Blitz, Supportable 
-            <br/>3/2/2/7 Cuirassiers . Blitz, Supportable 
-            <br/>0/1/2/8 Barque . Transport Capacity: 3 
-            <br/>1/1/2/6 Cutter . Gives Support (+1 attack) 
-            <br/>1/2/2/8 Brigantine . Supportable, TCapacity: 1 
-            <br/>2/1/2/9 Corvette . First Strike, Can Retreat (Is Sub), TCapacity: 1 
-            <br/>3/2/2/12 Frigate . Supportable, Bombard, TC: 1 
-            <br/>4/4/2/21 Battleship . 2 Hit Points (doesn't repair), Supportable, Bombard, TC: 1 
-            <br/>0/0/0/10 Encampment . Can Produce Units, Can be Captured 
-            <br/>0/0/1/14 General . Can Produce Units on Territory you owned at beginning of turn, Can be Captured, Can be Transported, TCost=3 
+            <table border="1" bgcolor="EEEEEE" align="center">
+                <th style="font-size:125%;000000" bgcolor="997744" colspan="7">Land Units</th>
+                <tr>
+                    <th bgcolor="CDBA96">Name</th>
+                    <th bgcolor="CDBA96">Att</th>
+                    <th bgcolor="CDBA96">Def</th>
+                    <th bgcolor="CDBA96">Move</th>
+                    <th bgcolor="CDBA96">Cost</th>
+                    <th bgcolor="CDBA96">Size</th>
+                    <th bgcolor="CDBA96">Special Abilities</th>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Fusiliers</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">4</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99">isSupportable</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Chasseurs</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">3</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">5</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77">isSupportable</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Grenadiers</td>
+                    <td bgcolor="CCCC99" style="text-align: center">3</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">6</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99">isSupportable</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Marines</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">6</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77">Amphibious Assault +1 Attack</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Howitzer</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">4</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99">Gives Support (+1 attack)</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Artillery</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">5</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77">Gives Support (+1 attack)</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Horse_Artillery</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">5</td>
+                    <td bgcolor="CCCC99" style="text-align: center">3</td>
+                    <td bgcolor="CCCC99">Blitz, Gives Support (+1 attack)</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Mortars*</td>
+                    <td bgcolor="CCAA77" style="text-align: center">5</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">8</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77">Gives Support (+1 attack)</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Hussars</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">4</td>
+                    <td bgcolor="CCCC99" style="text-align: center">3</td>
+                    <td bgcolor="CCCC99">Blitz</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Dragoons</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">6</td>
+                    <td bgcolor="CCAA77" style="text-align: center">3</td>
+                    <td bgcolor="CCAA77">Blitz, Supportable</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Cuirassiers</td>
+                    <td bgcolor="CCCC99" style="text-align: center">3</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">7</td>
+                    <td bgcolor="CCCC99" style="text-align: center">3</td>
+                    <td bgcolor="CCCC99">Blitz, Supportable</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Marshal*</td>
+                    <td bgcolor="CCAA77" style="text-align: center">4</td>
+                    <td bgcolor="CCAA77" style="text-align: center">3</td>
+                    <td bgcolor="CCAA77" style="text-align: center">3</td>
+                    <td bgcolor="CCAA77" style="text-align: center">9</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77">Blitz, Supportable</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Mortella_Tower*</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">0</td>
+                    <td bgcolor="CCCC99" style="text-align: center">3</td>
+                    <td bgcolor="CCCC99" style="text-align: center"/>
+                    <td bgcolor="CCCC99"/>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Fortress*</td>
+                    <td bgcolor="CCAA77" style="text-align: center">4</td>
+                    <td bgcolor="CCAA77" style="text-align: center">4</td>
+                    <td bgcolor="CCAA77" style="text-align: center">0</td>
+                    <td bgcolor="CCAA77" style="text-align: center">5</td>
+                    <td bgcolor="CCAA77" style="text-align: center"/>
+                    <td bgcolor="CCAA77"/>
+                </tr>         
+                <tr>
+                    <td bgcolor="CCCC99">Encampment</td>
+                    <td bgcolor="CCCC99" style="text-align: center">0</td>
+                    <td bgcolor="CCCC99" style="text-align: center">0</td>
+                    <td bgcolor="CCCC99" style="text-align: center">0</td>
+                    <td bgcolor="CCCC99" style="text-align: center">10</td>
+                    <td bgcolor="CCCC99" style="text-align: center"/>
+                    <td bgcolor="CCCC99">Can Produce Units, Can be Captured</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">General</td>
+                    <td bgcolor="CCAA77" style="text-align: center">0</td>
+                    <td bgcolor="CCAA77" style="text-align: center">0</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">14</td>
+                    <td bgcolor="CCAA77" style="text-align: center">3</td>
+                    <td bgcolor="CCAA77">Can Produce Units on territory you owned at beginning of turn, Can be Captured</td>
+                </tr>
+                <tr>
+                    <th bgcolor="CDBA96">Name</th>
+                    <th bgcolor="CDBA96">Att</th>
+                    <th bgcolor="CDBA96">Def</th>
+                    <th bgcolor="CDBA96">Move</th>
+                    <th bgcolor="CDBA96">Cost</th>
+                    <th bgcolor="CDBA96">Size</th>
+                    <th bgcolor="CDBA96">Special Abilities</th>
+                </tr>
+            </table>
+            *Mortars, Marshal, Mortella_Tower, and Fortress not available until round 2
+            <br/>**Fortresses and Towers are normal units, and as such they must be placed with a factory of some kind (a general, encampment, or capital)       
             <br/>
-            <br/>Special/Extra Units: 
-            <br/>2/2/0/3 Mortella Tower 
-            <br/>4/4/0/5 Fortress 
-            <br/>5/1/1/8 Mortars . Gives Support (+1 attack) 
-            <br/>4/3/3/9 Marshal . Blitz, Supportable 
-            <br/>4/3/3/9 Ney/Wellington/Blucher/Charles/Kutusov . Blitz, Supportable 
             <br/>
-            <br/>Infantry-type units have TransportCost=2, while Cavalry-type units have TCost=3 
-            <br/>Marines have TCost=1 (can fit on any boat), Marshals and Artillery have TCost=2 
-            <br/>Corvettes are treated as submarines.  Corvettes can retreat separately from the main force during offense, and can retreat when on the defense to any adjacent friendly/empty sea zone. 
-            <br/>Fortresses and Towers are normal units, and as such they must be placed with a factory of some kind (a general, encampment, or capital) 
-            <br/>
-            <br/>
-            <br/>STRATEGY HELP and OPENING MOVES 
-            <br/>
-            <br/>On Units: 
-            <br/>Barques are the Green-Bottom boats, and they are the Transports of this game. 
-            <br/>Fusiliers and Howitzers are the most efficient units to buy.  If bought in pairs, they are essentially 3att/3def/1mov/8cost with 2 hit points (Hitpoints matter alot!). 
-            <br/>Cutters and Brigantines/Corvettes are the most efficient naval units to buy.  If bought in pairs, they are essentially 3att/3def/2mov/14cost with 2 hit points, (or 4/2/2/15 if cutter + corvette, assuming you have ships for the cutter to support). 
-            <br/>
-            <br/>As France: 
-            <br/>You have many options and no required opening moves. 
-            <br/>Obviously you should take Flanders, Cologne, and Provence. 
-            <br/>Option 1) Go Heavy into Germany and NorthWestern Europe 
-            <br/>Option 2) Go Heavy into Italy 
-            <br/>Option 3) Atlantic Fleet builds 
-            <br/>Option 4) Med Fleet builds 
-            <br/>Option 5) Take Egypt and Optionally build an encampment or general down there. 
-            <br/>Option 6) Send the Egypt fleet back towards Italy (or up to black sea) 
-            <br/>Generally speaking you can probably do 2-3 out of those 6, as trying to do more would spread you too thin. 
-            <br/>
-            <br/>As England: 
-            <br/>You have the most options and no required opening moves. 
-            <br/>Try to kill the remains of the english channel french fleet. 
-            <br/>You can use the frigate near ireland for shore bombardments into ireland (with the marine), and even help with the northumberland marine too. 
-            <br/>Your Majorica fleet can kill the spanish fleet if the french did not support it, and otherwise you can take corsica, sardinia, valencia, or tunisia with the marines there, or you can head for the french convoy zone and steal it. 
-            <br/>Your other med fleet can go towards the french med fleet, or try to link up with the majorica fleet, or head to Candia (crete).  You can also build an encampment in either Candia or Majorica, though Candia can usually last longer, and can be used to pressure the ottomons. 
-            <br/>England should try to have more fleet than the spanish at all times. 
-            <br/>It is generally a good idea to help the Prussians push Sweden out of Jutland.  After that, you can turn your attention to northern france, northwestern europe, or invade norway and sweden. 
-            <br/>Get the Swedish and French convoy zones near England as soon as you can. 
-            <br/>
-            <br/>As Spain: 
-            <br/>Take Oporto. 
-            <br/>Position Units and choose your build in order to take Lisbon on the second turn, and maybe Andalusia (Gibraltar) on the third turn. 
-            <br/>Your general can head for Valencia and build fleet, or La Mancha and build units this turn.  
-            <br/>Usually not a good idea to threaten England in the Atlantic the first two turns, though you can and should threaten them later. 
-            <br/>You also need to send some guys into North Africa, and can do so on the first turn depending, but at least by the third turn.  Your goal should be to eventually be getting +10 pu's a turn out of africa. <br/>Option 1) Attempt to rid the Med of the UK 
-            <br/>Option 2) Begin a Naval building war against the UK in the atlantic 
-            <br/>Option 3) Build all land, sending to either northern france or italy. 
-            <br/>
-            <br/>As Prussia: 
-            <br/>Take Mecklenburg. 
-            <br/>You can choose to attack Moldovia if you want. 
-            <br/>Generally speaking your goal should be to push Sweden out of Holstein, while keeping the French OR Swedish in check. 
-            <br/>Option 1) Go 100% navy.  Assuming Jutland and Finland fall by the end of turn 3, you can win against Sweden's Navy on turn 6, even if Sweden goes 100% navy also. 
-            <br/>Option 2) Go a little navy to start, to hold on to your convoy zone for a few turns, then switch to 100% land. 
-            <br/>Option 3) Go 100% land.  You will have to garrison Prussia and your north.  Can pay off quickly if France can be stopped from advancing. 
-            <br/>
-            <br/>As Sweden: 
-            <br/>Consolidate your fleet in SZ9 and move General to Ostra Gotaland. 
-            <br/>You should attack St. Petersburg with everything that can make it in Finland and Karelia.  You should retreat to Karelia after 1 round.  You should not win in St. Petersburg. 
-            <br/>You can build 1 Battleship and 1 Cutter first turn. 
-            <br/>If Prussia builds 100% navy, your choices are 1) to keep up and build 100% navy also, hoping french can pressure prussia, or 2) send your fleet to sz11 or build extremely defensive fleet, or just save your money for multiple turns 
-            <br/>If Prussia does not go navy, you should still build navy first turn, but after that you can build a barque or two and begin reinforcing jutland, finland, and invading all the coastal areas around you.  Perhaps even drop off a general somewhere to build on the mainland. 
-            <br/>
-            <br/>As Austria: 
-            <br/>Do not forget to move your troops in Hollande (and each turn after that until they get where you want them to go). 
-            <br/>Take Bavaria and Venetia. 
-            <br/>You can also take 1 Ottomon territory this turn most likely. 
-            <br/>Build cheap units as fodder. 
-            <br/>Sit back and build, perpare for french assault eventually.  Play check with French forces. 
-            <br/>You can also swing into Italy when the time is right and the French are not prepared to prevent you taking Rome. 
-            <br/>Pressuring Ottomons can be done but is risky, as if you get too far away from Vienna the French might decided to take it from you. 
-            <br/>
-            <br/>As The Ottomons: 
-            <br/>Retreat northern forces closer to Constantinople. 
-            <br/>Move Brigantine in SZ93 closer to Russian Convoy, take russian convoy on turn 2 with brig. 
-            <br/>You use your marines against an enemy in moldovia, or you can move them to use turn 2 or 3 in the med against the neutrals. 
-            <br/>If you pick up your general with the barque and drop him off in Sinop, you can build a cavalry there and use it against Armenia. 
-            <br/>You can attack Edessa first turn, but if you lose any guys taking Armenia turn 2 gets more painful.  Might be worth waiting and moving all troops closer to Armenia turn 1 without attacking. 
-            <br/>Overall, your goal is take significant money out of the middle east, while holding off Russian hordes, Austrian adventuring, and the occasional UK amphibious assault. 
-            <br/>Survive long enough while taking neutrals and you become a threat who can push back, but at the beginning you mostly just try to survive.   
-            <br/>If Austria does not send much against you, or Sweden forces Russia to head north, you can go on an early offensive, but don't get in over your head. 
-            <br/>You can also send all your navy to the med and challenge the UK for supremecy there. 
-            <br/>
-            <br/>As Russia: 
-            <br/>Your job is to push Sweden out of Finland, and Push the Ottomons out of Armenia, while threatening and holding down any Ottomons near Constantinople that way they do not pressure Austria.  You can also send a few spare troops to defend Prussia and Austrian capitols. 
-            <br/>Pretty simple, you want to send at least 20 units north.... then send everything else south. 
-            <br/>If Prussia is not going navy, you will need to send a unit north every turn just to build up a defense up there in case sweden attacks.  
-            <br/>Otherwise, send everything you build south every turn. 
-            <br/>You can also send a general south and build Navy.  After you take the two neutrals there, your navy can exit the harbor and take back your convoy zone.  The navy builds often force the Ottomons to keep up in navy, which is not something they can easily do. 
-            <br/>Mordvins does touch sz101, so you can build navy with a general there. 
-            <br/>SZ2 touches SZ3, and a general in Novgorod can build a fleet in sz2 that Sweden can not touch until you are prepared to exit the lake and attack Sweden's fleet. It is difficult to for Russia to defeat Sweden alone, and it is much better to have UK or Prussia attack Sweden at the same time. 
+            <table border="1" bgcolor="EEEEEE" align="center">
+                <tr>
+                    <th style="font-size:125%;000000" bgcolor="997744" colspan="6">Naval Units</th>
+                </tr>
+                <tr>
+                    <th bgcolor="CDBA96">Name</th>
+                    <th bgcolor="CDBA96">Att</th>
+                    <th bgcolor="CDBA96">Def</th>
+                    <th bgcolor="CDBA96">Move</th>
+                    <th bgcolor="CDBA96">Cost</th>
+                    <th bgcolor="CDBA96">Special Abilities</th>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Barque</td>
+                    <td bgcolor="CCCC99" style="text-align: center">0</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">8</td>
+                    <td bgcolor="CCCC99">TCapacity: 3</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Cutter</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">6</td>
+                    <td bgcolor="CCAA77">Gives Support (+1 attack)</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Brigantine</td>
+                    <td bgcolor="CCCC99" style="text-align: center">1</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">8</td>
+                    <td bgcolor="CCCC99">Supportable, TCapacity: 1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Corvette</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">1</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">9</td>
+                    <td bgcolor="CCAA77">First Strike, Can Retreat (Is Sub), TCapacity: 1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCCC99">Frigate</td>
+                    <td bgcolor="CCCC99" style="text-align: center">3</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">2</td>
+                    <td bgcolor="CCCC99" style="text-align: center">12</td>
+                    <td bgcolor="CCCC99">Supportable, Bombard, TCapacity: 1</td>
+                </tr>
+                <tr>
+                    <td bgcolor="CCAA77">Battleship</td>
+                    <td bgcolor="CCAA77" style="text-align: center">4</td>
+                    <td bgcolor="CCAA77" style="text-align: center">4</td>
+                    <td bgcolor="CCAA77" style="text-align: center">2</td>
+                    <td bgcolor="CCAA77" style="text-align: center">21</td>
+                    <td bgcolor="CCAA77">2 HP (doesn't repair), Supportable, Bombard, TCapacity: 1</td>
+                </tr>
+                <tr>
+                    <th bgcolor="CDBA96">Name</th>
+                    <th bgcolor="CDBA96">Att</th>
+                    <th bgcolor="CDBA96">Def</th>
+                    <th bgcolor="CDBA96">Move</th>
+                    <th bgcolor="CDBA96">Cost</th>
+                    <th bgcolor="CDBA96">Special Abilities</th>
+                </tr>
+            </table>
+            *Corvettes are treated as submarines. Corvettes can retreat separately from the main force during offense, and can retreat when on the defense to any adjacent friendly/empty sea zone.
             <br/>
             <br/>
+            <b>Canals</b>
             <br/>
-            <br/>Optional Rules: 
-            <br/>Optional Rule: Turn on 'Units Can Be Destroyed Instead Of Captured' to have the following effect: Captured Generals are executed, Encampments burned to the ground, and Capitals razed (if a player loses their capital, then regains it, they must build a camp or general there in order to produce there). 
-            <br/>Optional Canal: Andalusia (Gibralter) must be controlled to move between SZ53-54 
-            <br/>Optional Andalusia (Gibraltar) rules: Gibraltar does not touch any land, therefor no units can enter it by land, and no units may exit it onto land.  Must be invaded by ship. 
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Oresund (Holstein, Sjaelland) (SZ10, SZ11)</li>
+                    <li>Kerch Straight (Crimea, Astrakahn) (SZ97, SZ101)</li>
+                    <li>Strait of Messina (Sicily, Calabria) (SZ70, SZ71)</li>
+                    <li>Neva River (Karelia, Ingria) (SZ2, SZ3) (Russia can build navy in the lake)</li>
+                    <li>Bosphorus (Constantinople, Kiutayeh) (SZ84, SZ92) (connects Turkey, Balkans by land)</li>
+                </ul>
+            </div>
             <br/>
+            <b>Units and Rules</b>
             <br/>
-            <br/>Original Map and Game, complete to Version 2.0 by LSSAH. 
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Battleships DO NOT REPAIR at end of turn.</li>
+                    <li>The number of bombardments allowed is restricted to the number of units making an amphibious assault, however bombardments still kill units without the unit getting to return fire.</li>
+                    <li>Extra Units are available starting on round 2. Un-check the game option 'Use Triggers' to turn off these units permanently.</li>
+                    <li>Encampments are permanent, and can be captured.</li>
+                    <li>Generals can move and raise troops in the territory they occupy, IF you owned that territory at the beginning of your turn.</li>
+                    <li>Generals, Encampments, and Capitals are Factories, meaning they follow all normal factory rules. They can be purchased and placed anywhere you owned at beginning of turn, they can produce anywhere you owned at beginning of turn, and they can be captured</li>
+                    <li>Barques (green transports) are not able to capture convoy zones.</li>
+                    <li>Capturing a Convoy Zone denies the enemy their income, but does not provide you with any income, and can only be done during your Combat Move.</li>
+                    <li>Negative income modifiers: Spain collect 10 less income per turn than their total production, and that France collects 6 less, and the UK 4 less.</li>
+                </ul>
+            </div>                 
+            <br/>
+            <b>Victory Conditions</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 200px">
+                    <li>11 vc = Projections of Power</li>
+                    <li>12 vc = Honorable Surrender</li>
+                    <li>13 vc = Total Victory (default)</li>
+                </ul>
+            </div>
+            <br/>
+            <b>Optional Rules</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Optional Rule: Turn on 'Units Can Be Destroyed Instead Of Captured' to have the following effect: Captured Generals are executed, Encampments burned to the ground, and Capitals razed (if a player loses their capital, then regains it, they must build a camp or general there in order to produce there).</li>
+                    <li>Optional Canal: Andalusia (Gibralter) must be controlled to move between SZ53-54</li>
+                    <li>Optional Andalusia (Gibraltar) rules: Gibraltar does not touch any land, therefor no units can enter it by land, and no units may exit it onto land.  Must be invaded by ship.</li>
+                </ul>
+            </div>
+            <br/>
+            <h1 style="text-align: center;font-size:125%;000000">Strategy and Opening Moves</h1>
+            <br/>
+            <b>Units</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Barques are the Green-Bottom boats, and they are the Transports of this game.</li>
+                    <li>Fusiliers and Howitzers are the most efficient units to buy. If bought in pairs, they are essentially 3att/3def/1mov/8cost with 2 hit points (Hitpoints matter alot!).</li>
+                    <li>Cutters and Brigantines/Corvettes are the most efficient naval units to buy.  If bought in pairs, they are essentially 3att/3def/2mov/14cost with 2 hit points, (or 4/2/2/15 if cutter + corvette, assuming you have ships for the cutter to support).</li>
+                </ul>
+            </div>
+            <br/>
+            <b>France</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>You have many options and no required opening moves.</li> 
+                    <li>Obviously you should take Flanders, Cologne, and Provence.</li> 
+                    <li>Option 1) Go Heavy into Germany and NorthWestern Europe</li> 
+                    <li>Option 2) Go Heavy into Italy</li> 
+                    <li>Option 3) Atlantic Fleet builds</li> 
+                    <li>Option 4) Med Fleet builds</li> 
+                    <li>Option 5) Take Egypt and Optionally build an encampment or general down there.</li> 
+                    <li>Option 6) Send the Egypt fleet back towards Italy (or up to black sea)</li> 
+                    <li>Generally speaking you can probably do 2-3 out of those 6, as trying to do more would spread you too thin.</li>
+                </ul>
+            </div>
+            <br/>
+            <b>England</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>You have the most options and no required opening moves.</li> 
+                    <li>Try to kill the remains of the english channel french fleet.</li> 
+                    <li>You can use the frigate near ireland for shore bombardments into ireland (with the marine), and even help with the northumberland marine too.</li> 
+                    <li>Your Majorica fleet can kill the spanish fleet if the french did not support it, and otherwise you can take corsica, sardinia, valencia, or tunisia with the marines there, or you can head for the french convoy zone and steal it.</li> 
+                    <li>Your other med fleet can go towards the french med fleet, or try to link up with the majorica fleet, or head to Candia (crete).  You can also build an encampment in either Candia or Majorica, though Candia can usually last longer, and can be used to pressure the ottomons.</li> 
+                    <li>England should try to have more fleet than the spanish at all times.</li> 
+                    <li>It is generally a good idea to help the Prussians push Sweden out of Jutland.  After that, you can turn your attention to northern france, northwestern europe, or invade norway and sweden.</li> 
+                    <li>Get the Swedish and French convoy zones near England as soon as you can.</li> 
+                </ul>
+            </div>
+            <br/>
+            <b>Spain</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Take Oporto.</li> 
+                    <li>Position Units and choose your build in order to take Lisbon on the second turn, and maybe Andalusia (Gibraltar) on the third turn.</li> 
+                    <li>Your general can head for Valencia and build fleet, or La Mancha and build units this turn.</li>  
+                    <li>Usually not a good idea to threaten England in the Atlantic the first two turns, though you can and should threaten them later.</li> 
+                    <li>You also need to send some guys into North Africa, and can do so on the first turn depending, but at least by the third turn.  Your goal should be to eventually be getting +10 pu's a turn out of africa.</li>
+                    <li>Option 1) Attempt to rid the Med of the UK</li> 
+                    <li>Option 2) Begin a Naval building war against the UK in the atlantic</li> 
+                    <li>Option 3) Build all land, sending to either northern france or italy.</li>
+                </ul>
+            </div>
+            <br/>
+            <b>Prussia</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Take Mecklenburg.</li> 
+                    <li>You can choose to attack Moldovia if you want.</li> 
+                    <li>Generally speaking your goal should be to push Sweden out of Holstein, while keeping the French OR Swedish in check.</li> 
+                    <li>Option 1) Go 100% navy.  Assuming Jutland and Finland fall by the end of turn 3, you can win against Sweden's Navy on turn 6, even if Sweden goes 100% navy also.</li> 
+                    <li>Option 2) Go a little navy to start, to hold on to your convoy zone for a few turns, then switch to 100% land.</li> 
+                    <li>Option 3) Go 100% land.  You will have to garrison Prussia and your north.  Can pay off quickly if France can be stopped from advancing.</li> 
+                </ul>
+            </div>
+            <br/>
+            <b>Sweden</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Consolidate your fleet in SZ9 and move General to Ostra Gotaland.</li> 
+                    <li>You should attack St. Petersburg with everything that can make it in Finland and Karelia.  You should retreat to Karelia after 1 round.  You should not win in St. Petersburg.</li> 
+                    <li>You can build 1 Battleship and 1 Cutter first turn.</li> 
+                    <li>If Prussia builds 100% navy, your choices are 1) to keep up and build 100% navy also, hoping french can pressure prussia, or 2) send your fleet to sz11 or build extremely defensive fleet, or just save your money for multiple turns</li> 
+                    <li>If Prussia does not go navy, you should still build navy first turn, but after that you can build a barque or two and begin reinforcing jutland, finland, and invading all the coastal areas around you.  Perhaps even drop off a general somewhere to build on the mainland.</li>
+                </ul>
+            </div>
+            <br/>
+            <b>Austria</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Do not forget to move your troops in Hollande (and each turn after that until they get where you want them to go).</li> 
+                    <li>Take Bavaria and Venetia.</li>
+                    <li>You can also take 1 Ottomon territory this turn most likely.</li>
+                    <li>Build cheap units as fodder.</li>
+                    <li>Sit back and build, perpare for french assault eventually.  Play check with French forces.</li>
+                    <li>You can also swing into Italy when the time is right and the French are not prepared to prevent you taking Rome.</li> 
+                    <li>Pressuring Ottomons can be done but is risky, as if you get too far away from Vienna the French might decided to take it from you.</li>
+                </ul>
+            </div>
+            <br/>
+            <b>Ottomans</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Retreat northern forces closer to Constantinople.</li> 
+                    <li>Move Brigantine in SZ93 closer to Russian Convoy, take russian convoy on turn 2 with brig.</li> 
+                    <li>You use your marines against an enemy in moldovia, or you can move them to use turn 2 or 3 in the med against the neutrals.</li> 
+                    <li>If you pick up your general with the barque and drop him off in Sinop, you can build a cavalry there and use it against Armenia.</li> 
+                    <li>You can attack Edessa first turn, but if you lose any guys taking Armenia turn 2 gets more painful.  Might be worth waiting and moving all troops closer to Armenia turn 1 without attacking.</li> 
+                    <li>Overall, your goal is take significant money out of the middle east, while holding off Russian hordes, Austrian adventuring, and the occasional UK amphibious assault.</li> 
+                    <li>Survive long enough while taking neutrals and you become a threat who can push back, but at the beginning you mostly just try to survive.</li>   
+                    <li>If Austria does not send much against you, or Sweden forces Russia to head north, you can go on an early offensive, but don't get in over your head.</li> 
+                    <li>You can also send all your navy to the med and challenge the UK for supremecy there.</li> 
+                </ul>
+            </div>
+            <br/>
+            <b>Russia</b>
+            <br/>
+            <div>
+                <ul style="text-align: left; display: inline-block; width: 400px">
+                    <li>Your job is to push Sweden out of Finland, and Push the Ottomons out of Armenia, while threatening and holding down any Ottomons near Constantinople that way they do not pressure Austria.  You can also send a few spare troops to defend Prussia and Austrian capitols.</li> 
+                    <li>Pretty simple, you want to send at least 20 units north then send everything else south.</li> 
+                    <li>If Prussia is not going navy, you will need to send a unit north every turn just to build up a defense up there in case sweden attacks.</li>  
+                    <li>Otherwise, send everything you build south every turn.</li> 
+                    <li>You can also send a general south and build Navy.  After you take the two neutrals there, your navy can exit the harbor and take back your convoy zone.  The navy builds often force the Ottomons to keep up in navy, which is not something they can easily do.</li> 
+                    <li>Mordvins does touch sz101, so you can build navy with a general there.</li> 
+                    <li>SZ2 touches SZ3, and a general in Novgorod can build a fleet in sz2 that Sweden can not touch until you are prepared to exit the lake and attack Sweden's fleet. It is difficult to for Russia to defeat Sweden alone, and it is much better to have UK or Prussia attack Sweden at the same time.</li> 
+                </ul>
+            </div> 
+            <br/>
+            <br/>Original Map and Game, up to Version 2.0 by LSSAH. 
             <br/>Changes 2.0-4.0 by Veqryn (with additional help from Pulicat, Lalapaloza, Cal2). 
-            <br/>Changes 4.1+ by redrum
+            <br/>Changes 4.1+ by Redrum
         </div>
     </body>
 </html>
