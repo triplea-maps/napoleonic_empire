@@ -1,20 +1,121 @@
-Napoleonic Empires 3.1 by Veqryn
-
-Possible Future Changes:
-Artillery made 2/1/1/4 cost and defense lowered by 1
-Mortars made 4/2/1/6 cost and attack lowered by 1, defense increased by 1 or 4/1/1/6 cost and attack lowered by 1
-Marines made 2(3)/2/1/5 defense boosted by 1, OR stay at 2(3)/1/1/5 and be supportable.
-Grenadier made 3/2/1/5 cost and defense lowered by 1
-Hussar, Dragoons, Cuirassiers, General, cost lowered by 1
-Corvette made 2/2/2/10 cost and defense increased by 1
-Frigate cost made 13
-Battleship cost made 19 or 20 or 21
-Horse Artillery made 2/0/2/4 attack increased by 1, defense decreased by 1, OR made 1/2/2/4 defense increased by 1, OR made 1/0/2/3 defense and cost decreased by 1, OR made 0/1/2/3 attack and cost decreased by 1
-Fortress made 0/5/0/7 cost and defense raised by 1, or made 0/4/0/8 with 2 hits points (non-repairable) cost raised by 2.
-Some name changes for units.
+Version 4.1.x changes:
+Renamed from Napoleonic Empire to Napoleonic Empires.
+Changed default skin to political map.
+Removed custom cursor.
+Changed show territory names to true.
+Renamed around 12 territories.
 
 
-Version 2.0 - 3.x changes made by Veqryn.
+Version 4.0 - 4.0.x changes:
+Tweaking of Political rules.
+Removing a few neutral units from middle east and north africa.
+Increasing Mortar defense by 1, and increasing cost by 1.
+Decreased Fortress cost by 1.
+Increasing Marshal movement by 1 (to 3) so that they match the other special cavalry.
+Decreasing cost of Generals and Encampments by 1.
+
+
+Version 3.9.3 - 4.0 changes:
+Added politics as an option, which defaults to false. If turned on, you may change your alliances during the game.
+
+
+Version 3.9.2 - 3.9.3 changes:
+Removed 1 Forterss from Hanover, and turned 1 Chasseurs into Fusiliers
+
+
+Version 3.8 - 3.9 changes:
+Removed connection between Bohus and sz21.
+Added two fortresses to Majorca.
+Changed a single tower and fortress on Candia into three Chasseurs.
+Removed a Tower from Catalonia.
+Updated to new engine:
+Barques (the transports) no longer capture convoy zones, while all other boats still can.
+Now uses Triggers to prevent purchases of Marshals, Mortars, Towers and Fortresses before the 2nd turn.
+Added ability to have generals, encampments, and capitals destroyed with a game option.
+
+
+Version 3.7 - 3.8 changes:
+Changed Default Victory Condition to be honorable surrender (13 vc), instead of total victory (14).
+Removed 1 defense from the Mortar unit, so now it is zero defense (5/0/1 with artillery gives support ability).
+Removed Austrian Cutter.
+Removed Tower from Constantinople.
+Changed Madrid Fortress to a Tower.
+Added a Tower to Catalonia.
+Gave Spain back 2 pu.
+Changed Spain's convoy from 16 to 14 (negative NO is now -10, to keep the original income of 4 from the convoy the same).
+
+
+Version 3.6 - 3.7 changes:
+Changed Novgorod from 2 to 3, Moscovia from 6 to 5.
+Removed 1 Swedish marine from Svealand.
+Added 1 Fortress to Hanover.
+Added 1 Tower to Hollande.
+Changed Russian ingria marine back into an artillery, change a latvia artillery into a marine.
+Moved 2 French Fusiliers from Paris to Anjou, and 1 fusilier from Picardy to Auvergne.
+Reduced price of General and Encampment by 3, to 15 and 11, (and two less for UK: 13 and 9).
+Removed the isDestroyer ability from Frigates.
+Changed sz58 UK corvette into a frigate.
+Removed 4 starting pu from spain.
+Changed 2 Burgundy Cuirassiers into Grenadiers and moved them to Valais.
+Changed Slavonia Tower into Fortress.
+Added 1 Hussar to Moscovia.
+Changed 1 Austrian Fusilier into a Marine, and 1 Chassuer into a Grenadier.
+Upped Spain's convoy to 16, and compensated by going to -12 on her National Objective.
+Introduced an Austrian cutter in sz77.
+Flipped all units so that Coalition faces west, and Carols face east.
+Replaced Austrian flag on naval units and small.
+Changed the Marshal to have more specific names for each country.
+
+
+Version 3.5 - 3.6 changes:
+Added 2 Russian Barques and 2 Cutters to SZ2 (remember there is a canal to sz3).
+Changed Fusiliers to Chasseurs in Finland.
+Removed 2 Spanish Fusiliers, upped Spanish starting PUs by 7 (to 30).
+Added 1 Tower to Gibraltar, and reduced Gibraltar territory PUs by 1 (to 2).
+Made convoys worth more: each of sz28, sz38, sz50, sz61, sz73 upped by 2 (to 6), and sz46 upped by 8 (to 12).
+To keep income for each nation the same as before, negative national objectives introduced for France (-6), UK (-4), and Spain (-8).
+Change in Prices for units: Battleship cost 1 more (21).
+Upped Prussian and Swedish starting PUs by 1 (to 27).
+Added victory cities victory conditions (12, 13, and 14 vc to win).
+
+
+Version 3.4 - 3.5 changes:
+Changed Chasseurs in Armernia into Hussars (ottos can take turn1 now).
+Added Russian Barque to SZ2 (remember there is a canal there to sz3).
+Removed 1 Tower from Prussia to compensate.
+Bug in the game engine does not allow Corvettes (submarines) to be supported by Cutters (a non-submarine artillery). Despite being listed in the game and xml as supportable, they have actually not been supported this entire time. Fixed by removing supportable from basetiles and xml.  Corvettes are no longer supportable (they never were).
+For future reference, in case it should come up, Corvettes are like submarines. If there is no enemy destroyer-type unit (frigate) in the battle, Corvettes can and should be able to: offensive and defensive first strike, offensive and defensive separate retreat (to another sea zone, is not a submerge), and Corvettes may not pass through other Corvettes.
+
+
+Version 3.3 - 3.4 changes:
+1 Tower added to Constantinople, Candia
+1 Marine moved from Candia(Crete) to SZ73
+1 Fusilier removed from Candia, replaced with 2 Fortresses (to stop turn2 otto take of candia)
+Fixed relief tiles to show Neva River Canal (sz2-3)
+
+
+Version 3.2 - 3.3 changes:
+Created a connection and Canal between SZ2 and SZ3.
+Added 1 Tower to Prussia, Gibraltar.
+Frigates lowered in cost by 2, to 12.
+Generals lowered in cost by 2, Encampments lowered by 1
+Many Changes to Land Units:
+Fusiliers, Chasseurs, Howitzer cost increased by 1
+Grenadiers defense decreased by 1
+Marines cost and defense increased by 1
+Hussars cost and attack decreased by 1
+Horse Artillery cost increased by 1
+(many starting Hussars turned into Horse Artillery or Dragoons, to maintain their 2 attack starting balance)
+
+
+Version 3.1 - 3.2 changes:
+Put a Fortress in Scotland.
+Removed a Chasseur from Navarre.
+Added a Russian Barque to SZ103, plus Pirates in the Caspian Sea to limit its movement.
+Added one more Chasseur to Tripoli.
+Turned Dragoon in Tangiers into a Tower and a Hussar.
+Moved one Hussar from Moldovia to Bessarabia.
+
 
 Version 3.0 - 3.1 changes:
 New Unit: Marshal, a 4/3/2/9 unit that is supportable and has blitz, similar to Marshal of France, but available to all non-france powers. 
