@@ -1,0 +1,5 @@
+map_name: napoleonic_empires
+games:
+- {game_name: Napoleonic Empires, file_name: Napoleonic_Empires.xml}
+- {game_name: 'Napoleonic Empires: FFA 8 Player', file_name: Napoleonic_Empires_FFA_8player.xml}
+- {game_name: 'Napoleonic Empires: FFA 5 Player', file_name: Napoleonic_Empires_FFA_5player.xml}
